@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日语/标日上-1.md",
+                "file": "日语/か.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,11 +159,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "623ce09e4186a1e1",
+  "active": "13ef7f387aa602bb",
   "lastOpenFiles": [
-    "日语/か.md",
-    "日语/标日上-1.md",
     "日语/は.md",
+    "日语/か.md",
+    "日语/の.md",
+    "日语/标日上-1.md",
     "README.md",
     "未命名.canvas",
     "日语",
