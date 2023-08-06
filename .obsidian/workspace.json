@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日语/标日上-2.md",
+                "file": "publish/标日上-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日语/标日上-2.md",
+                "file": "publish/标日上-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日语/标日上-2.md",
+                "file": "publish/标日上-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日语/标日上-2.md"
+                "file": "publish/标日上-2.md"
               }
             }
           }
@@ -148,16 +147,16 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9db4b1bf2ba228eb",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
-    "日语/の.md",
-    "日语/标日上-1.md",
-    "日语/标日上-2.md",
-    "日语/か.md",
-    "日语/は.md",
+    "publish/の.md",
+    "publish/标日上-1.md",
+    "publish/标日上-2.md",
+    "publish/か.md",
+    "publish/は.md",
     "README.md",
     "未命名.canvas",
-    "日语",
+    "publish",
     "LICENSE"
   ]
 }
