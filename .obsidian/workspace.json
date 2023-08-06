@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "db1a82b5f3aa6832",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日语/は.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日语/か.md",
+                "file": "日语/は.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日语/か.md",
+                "file": "日语/は.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日语/か.md"
+                "file": "日语/は.md"
               }
             }
           },
@@ -155,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,12 +181,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "d68aa79d37a5bd73",
+  "active": "db1a82b5f3aa6832",
   "lastOpenFiles": [
     "日语/标日上-1.md",
-    "日语/は.md",
-    "日语/か.md",
     "日语/の.md",
+    "日语/标日上-2.md",
+    "日语/か.md",
+    "日语/は.md",
     "README.md",
     "未命名.canvas",
     "日语",
