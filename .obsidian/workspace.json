@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/wangzhao's note.md",
+                "file": "publish/home.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/wangzhao's note.md",
+                "file": "publish/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/wangzhao's note.md",
+                "file": "publish/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/wangzhao's note.md"
+                "file": "publish/home.md"
               }
             }
           }
@@ -147,11 +147,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "13ef7f387aa602bb",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
     "publish/标日上-1.md",
     "publish/の.md",
-    "publish/wangzhao's note.md",
+    "publish/home.md",
     "publish/标日上-2.md",
     "publish/か.md",
     "publish/は.md",
