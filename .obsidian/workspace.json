@@ -23,8 +23,12 @@
             "id": "13ef7f387aa602bb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "日语/标日上-1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "日语/标日上-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "日语/标日上-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +137,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "日语/标日上-1.md"
+              }
+            }
+          },
+          {
+            "id": "d68aa79d37a5bd73",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,10 +164,11 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "13ef7f387aa602bb",
+  "active": "d68aa79d37a5bd73",
   "lastOpenFiles": [
     "日语/标日上-1.md",
     "日语/は.md",
