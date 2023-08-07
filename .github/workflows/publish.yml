@@ -1,6 +1,6 @@
 name: Publish to Vercel
 env:
-  BLOG_REPO: matthewwong525/linked-blog-starter
+  BLOG_REPO: SamuelCochrane/linked-blog-website # matthewwong525/linked-blog-starter
   PUBLISH_DIR: publish
 on:
   workflow_dispatch:
