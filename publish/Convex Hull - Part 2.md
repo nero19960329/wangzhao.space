@@ -1,6 +1,5 @@
 ---
 title: Convex Hull - Part 2
-date: 2018-03-06T18:07:42+08:00
 dateCreated: 2018-03-06T18:07
 dateModified: 2023-08-08T03:35
 ---
