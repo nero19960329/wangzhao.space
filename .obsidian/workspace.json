@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md"
+                "file": "publish/未命名.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,10 +156,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "012e77a1c95b38f5",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
-    "publish/标日上-2.md",
     "publish/Convex Hull - Part 1.md",
+    "publish/未命名.md",
+    "publish/标日上-2.md",
     "publish/标日上-1.md",
     "publish/か.md",
     "publish/は.md",
