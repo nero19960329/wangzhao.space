@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/は.md",
+                "file": "publish/标日上-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/は.md",
+                "file": "publish/标日上-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/は.md",
+                "file": "publish/标日上-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,33 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/は.md"
+                "file": "publish/标日上-1.md"
               }
             }
           },
           {
-            "id": "f17be35564a16e27",
+            "id": "c5716fa3f5be5a75",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "7a28505d6c0c165c",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
+              "type": "copilot-chat-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,16 +152,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "copilot:Copilot Chat": false,
-      "juggl:Juggl global graph": false
+      "copilot:Copilot Chat": false
     }
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/标日上-1.md",
-    "publish/は.md",
     "publish/标日上-2.md",
     "publish/か.md",
+    "publish/标日上-1.md",
+    "publish/は.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
