@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/标日上-1.md",
+                "file": "publish/は.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/标日上-1.md",
+                "file": "publish/は.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/标日上-1.md",
+                "file": "publish/は.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/标日上-1.md"
+                "file": "publish/は.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,12 +150,12 @@
   },
   "active": "13ef7f387aa602bb",
   "lastOpenFiles": [
-    "publish/home.md",
-    "publish/は.md",
     "publish/の.md",
     "publish/か.md",
+    "publish/home.md",
     "publish/标日上-2.md",
     "publish/标日上-1.md",
+    "publish/は.md",
     "README.md",
     "未命名.canvas",
     "publish",
