@@ -1,7 +1,7 @@
 ---
 title: Python3 wheel 包生成
 dateCreated: 2022-01-06T11:53
-dateModified: 2023-08-09T01:42
+dateModified: 2023-08-09T01:45
 ---
 
 ## 使用场景
@@ -260,11 +260,11 @@ pip 在安装包时大多数使用如下方式：
 
 ## References
 
-\[1\] [https://setuptools.pypa.io/en/latest/userguide/index.html](https://setuptools.pypa.io/en/latest/userguide/index.html)
-\[2\] [https://zhuanlan.zhihu.com/p/276461821](https://zhuanlan.zhihu.com/p/276461821)
-\[3\] [https://www.python.org/dev/peps/pep-0527/](https://www.python.org/dev/peps/pep-0527/)
-\[4\] [https://www.python.org/dev/peps/pep-0517/](https://www.python.org/dev/peps/pep-0517/)
-\[5\] [https://www.python.org/dev/peps/pep-0518/](https://www.python.org/dev/peps/pep-0518/)
-\[6\] [https://python.freelycode.com/contribution/detail/1910](https://python.freelycode.com/contribution/detail/1910)
-\[7\] [https://bernat.tech/posts/pep-517-518/](https://bernat.tech/posts/pep-517-518/)
-\[8\] [https://stackoverflow.com/questions/24008112/python-is-there-a-performance-difference-between-dist-and-sdist](https://stackoverflow.com/questions/24008112/python-is-there-a-performance-difference-between-dist-and-sdist)
+- \[1\] [https://setuptools.pypa.io/en/latest/userguide/index.html](https://setuptools.pypa.io/en/latest/userguide/index.html)
+- \[2\] [https://zhuanlan.zhihu.com/p/276461821](https://zhuanlan.zhihu.com/p/276461821)
+- \[3\] [https://www.python.org/dev/peps/pep-0527/](https://www.python.org/dev/peps/pep-0527/)
+- \[4\] [https://www.python.org/dev/peps/pep-0517/](https://www.python.org/dev/peps/pep-0517/)
+- \[5\] [https://www.python.org/dev/peps/pep-0518/](https://www.python.org/dev/peps/pep-0518/)
+- \[6\] [https://python.freelycode.com/contribution/detail/1910](https://python.freelycode.com/contribution/detail/1910)
+- \[7\] [https://bernat.tech/posts/pep-517-518/](https://bernat.tech/posts/pep-517-518/)
+- \[8\] [https://stackoverflow.com/questions/24008112/python-is-there-a-performance-difference-between-dist-and-sdist](https://stackoverflow.com/questions/24008112/python-is-there-a-performance-difference-between-dist-and-sdist)
