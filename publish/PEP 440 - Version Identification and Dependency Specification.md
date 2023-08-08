@@ -1,7 +1,7 @@
 ---
 title: PEP 440 - Version Identification and Dependency Specification
 dateCreated: 2022-04-20T16:49
-dateModified: 2023-08-09T01:47
+dateModified: 2023-08-09T01:56
 ---
 
 原文链接：[https://peps.python.org/pep-0440/#version-specifiers](https://peps.python.org/pep-0440/#version-specifiers)
@@ -22,7 +22,6 @@ dateModified: 2023-08-09T01:47
 
 ```
 [N!]N(.N)*[{a|b|rc}N][.postN][.devN]
-
 ```
 
 公共版本标识符不得包含前导或尾随空格。
@@ -53,7 +52,6 @@ Release segment 由一个或多个非负整数值组成，以点分隔：
 
 ```
 N(.N)*
-
 ```
 
 项目中的最终版本必须以不断增加的方式编号，否则自动化工具将无法正确升级它们。
@@ -68,7 +66,6 @@ N(.N)*
 
 ```
 ~= 0.9, >= 1.0, != 1.3.4.*, < 2.0
-
 ```
 
 比较运算符确定版本条件的类型：
@@ -94,7 +91,6 @@ N(.N)*
 
 ```
 >= V.N, == V.*
-
 ```
 
 此运算符不得与单个段版本号（例如 `~=1`）一起使用。
@@ -107,7 +103,6 @@ N(.N)*
 
 ~=1.4.5
 >= 1.4.5, == 1.4.*
-
 ```
 
 ### 版本匹配

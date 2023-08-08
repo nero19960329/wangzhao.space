@@ -1,14 +1,14 @@
 ---
 title: pyenv instruction
 dateCreated: 2022-05-20T22:51
-dateModified: 2023-08-09T01:49
+dateModified: 2023-08-09T01:57
 ---
 
 ## What is pyenv?
 
 [pyenv](https://github.com/pyenv/pyenv) is a Python version manager which is a tool to manage multiple Python versions.
 
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a tool to create isolated Python environments. It allows `pyenv` and `virtualenv` to work together.(`pyenv-virtualenv` 是一个可以将 `pyenv` 和 `virtualenv` 无缝连接起来的插件)[1]
+[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a tool to create isolated Python environments. It allows `pyenv` and `virtualenv` to work together.(`pyenv-virtualenv` 是一个可以将 `pyenv` 和 `virtualenv` 无缝连接起来的插件)\[1\]
 
 ## Why use pyenv?
 
@@ -72,7 +72,7 @@ Because `pyenv` is not supported at Windows, then `pyenv-virtualenv` is unavaila
 
 End-to-end installation commands at my environment:
 
-ENV-PC: Windows 10 with PowerShell 7.2.1[4]:
+ENV-PC: Windows 10 with PowerShell 7.2.1\[4\]:
 
 ```powershell
 git clone https://github.com/pyenv-win/pyenv-win.git "$HOME/.pyenv"
@@ -128,7 +128,7 @@ rm -rf <env_name>
 
 ### Q: Error occurred: `ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?`
 
-Run commands below[2]:
+Run commands below\[2\]:
 
 ```bash
 sudo apt-get update
@@ -139,7 +139,7 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 
 ### Q: Error occurred: `ImportError: libpython3.8.so.1.0: cannot open shared object file: No such file or directory`
 
-Run commands below[3]:
+Run commands below\[3\]:
 
 ```bash
 env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install x.x.x
@@ -148,7 +148,7 @@ ls ~/.pyenv/version/x.x.x/lib
 
 ## References
 
-- [1] https://stackoverflow.com/questions/29950300/what-is-the-relationship-between-virtualenv-and-pyenv
-- [2] https://github.com/pyenv/pyenv/wiki#suggested-build-environment
-- [3] https://github.com/pyenv/pyenv/issues/1504#issuecomment-703248521
-- [4] https://rkadezone.wordpress.com/2020/09/14/pyenv-win-virtualenv-windows/
+- \[1\] https://stackoverflow.com/questions/29950300/what-is-the-relationship-between-virtualenv-and-pyenv
+- \[2\] https://github.com/pyenv/pyenv/wiki#suggested-build-environment
+- \[3\] https://github.com/pyenv/pyenv/issues/1504#issuecomment-703248521
+- \[4\] https://rkadezone.wordpress.com/2020/09/14/pyenv-win-virtualenv-windows/
