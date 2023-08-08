@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Site Reliability Engineering - Week 2.md",
+                "file": "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Site Reliability Engineering - Week 2.md",
+                "file": "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Site Reliability Engineering - Week 2.md",
+                "file": "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Site Reliability Engineering - Week 2.md"
+                "file": "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md"
               }
             }
           },
@@ -158,8 +158,17 @@
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/Site Reliability Engineering - Week 1.md",
+    "publish/算法基础 2.md",
+    "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
+    "publish/算法基础 1.md",
+    "publish/Building a FastAPI Application with Prometheus Metrics.md",
+    "publish/Backend Developer Roadmap 2.md",
+    "publish/Backend Developer Roadmap 1.md",
+    "publish/Nginx & Consul Usage.md",
+    "publish/Rust Introduction.md",
+    "publish/Site Reliability Engineering - Week 3 & 4.md",
     "publish/Site Reliability Engineering - Week 2.md",
+    "publish/Site Reliability Engineering - Week 1.md",
     "publish/pyenv instruction.md",
     "publish/Python3 wheel 包生成.md",
     "publish/Site Reliabiliy Engineering - Week 1.md",
@@ -175,12 +184,10 @@
     "README.md",
     "publish/Convex Hull - Part 2.md",
     "publish/か.md",
-    "publish/は.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
     "publish/attachments",
-    "publish/home.md",
     "未命名.canvas",
     "publish",
     "LICENSE"
