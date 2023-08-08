@@ -1,12 +1,10 @@
 ---
 title: About me
 dateCreated: 2023-08-08T15:00
-dateModified: 2023-08-08T15:05
+dateModified: 2023-08-08T15:07
 ---
 
-Hi, I'm Zhao Wang (王昭 in Chinese Character).
-
-I'm a software development engineer.
+Hi, I'm Wang Zhao. I'm a software development engineer.
 
 ## Education Background
 - 2013.08 ~ 2017.07
