@@ -1,6 +1,6 @@
 ---
 dateCreated: 2023-08-09T13:53
-dateModified: 2023-08-09T13:54
+dateModified: 2023-08-09T13:55
 ---
 demo 代码如下：
 
@@ -19,13 +19,8 @@ async def request_stream():
     }
 
     session = requests.Session()
-    session.proxies = {
-        "http": "http://127.0.0.1:7890",    # clash
-        "https": "http://127.0.0.1:7890",   # clash
-    }
     resp = session.post(
-        "https://qihuidata.cn/v1/completions",  # megvii cloudflare worker
-        # "https://api.openai.com/v1/completions",
+	    "https://api.openai.com/v1/completions",
         json={
             "model": "text-davinci-003",
             "prompt": "Count to 100, with a comma between each number and no newlines. 1, 2, 3, ",
