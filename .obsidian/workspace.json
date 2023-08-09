@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -159,7 +158,9 @@
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
+    "publish/も.md",
     "と.md",
+    "publish/と.md",
     "publish/标日上-4.md",
     "publish/标日上-3.md",
     "も.md",
@@ -183,8 +184,6 @@
     "publish/Python3 wheel 包生成.md",
     "publish/Site Reliabiliy Engineering - Week 1.md",
     "publish/PEP 440 - Version Identification and Dependency Specification.md",
-    "publish/Hugo with Docsy theme.md",
-    "publish/使用约定式提交进行语义化版本控制.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
