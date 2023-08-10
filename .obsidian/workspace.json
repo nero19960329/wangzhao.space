@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/未命名.md",
+                "file": "publish/Docker 配置方式.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/未命名.md",
+                "file": "publish/Docker 配置方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/未命名.md",
+                "file": "publish/Docker 配置方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/未命名.md"
+                "file": "publish/Docker 配置方式.md"
               }
             }
           },
           {
-            "id": "c5716fa3f5be5a75",
+            "id": "a9f5c25bd2c28578",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,10 +155,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "012e77a1c95b38f5",
+  "active": "a9f5c25bd2c28578",
   "lastOpenFiles": [
     "publish/标日上-4.md",
-    "publish/未命名.md",
+    "publish/Docker 配置方式.md",
     "publish/も.md",
     "と.md",
     "publish/と.md",
