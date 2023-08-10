@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Docker 配置方式.md",
+                "file": "publish/记一次与 GPT-4 之间关于用户系统需求的讨论.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Docker 配置方式.md",
+                "file": "publish/记一次与 GPT-4 之间关于用户系统需求的讨论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Docker 配置方式.md",
+                "file": "publish/记一次与 GPT-4 之间关于用户系统需求的讨论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Docker 配置方式.md"
+                "file": "publish/记一次与 GPT-4 之间关于用户系统需求的讨论.md"
               }
             }
           },
@@ -155,10 +155,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a9f5c25bd2c28578",
+  "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/标日上-4.md",
     "publish/Docker 配置方式.md",
+    "publish/记一次与 GPT-4 之间关于用户系统需求的讨论.md",
+    "publish/标日上-4.md",
     "publish/も.md",
     "と.md",
     "publish/と.md",
@@ -182,7 +183,6 @@
     "publish/Site Reliability Engineering - Week 1.md",
     "publish/pyenv instruction.md",
     "publish/Python3 wheel 包生成.md",
-    "publish/Site Reliabiliy Engineering - Week 1.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
