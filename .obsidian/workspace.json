@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
+                "file": "publish/Ubuntu 防火墙设置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
+                "file": "publish/Ubuntu 防火墙设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
+                "file": "publish/Ubuntu 防火墙设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md"
+                "file": "publish/Ubuntu 防火墙设置.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/Docker 配置方式.md",
     "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
+    "publish/Ubuntu 防火墙设置.md",
+    "publish/Docker 配置方式.md",
     "publish/标日上-4.md",
     "publish/も.md",
     "と.md",
@@ -182,7 +183,6 @@
     "publish/Site Reliability Engineering - Week 2.md",
     "publish/Site Reliability Engineering - Week 1.md",
     "publish/pyenv instruction.md",
-    "publish/Python3 wheel 包生成.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
