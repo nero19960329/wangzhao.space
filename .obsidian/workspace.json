@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "145d4e44f3ae8ebd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "012e77a1c95b38f5",
+  "active": "145d4e44f3ae8ebd",
   "lastOpenFiles": [
     "publish/Ubuntu 防火墙设置.md",
     "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
