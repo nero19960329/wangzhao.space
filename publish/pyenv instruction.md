@@ -1,18 +1,24 @@
 ---
 title: pyenv instruction
-dateCreated: 2022-05-20T22:51
-dateModified: 2023-08-09T01:57
+dateCreated: 2023-09-04T11:57
+dateModified: 2023-09-04T12:13
 ---
 
 ## What is pyenv?
 
 [pyenv](https://github.com/pyenv/pyenv) is a Python version manager which is a tool to manage multiple Python versions.
 
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a tool to create isolated Python environments. It allows `pyenv` and `virtualenv` to work together.(`pyenv-virtualenv` 是一个可以将 `pyenv` 和 `virtualenv` 无缝连接起来的插件)\[1\]
+[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a tool to create isolated Python environments.
+
+It allows `pyenv` and `virtualenv` to work together.
+
+(`pyenv-virtualenv` 是一个可以将 `pyenv` 和 `virtualenv` 无缝连接起来的插件)\[1\]
 
 ## Why use pyenv?
 
-When you develop multiple python projects, and these projects depends on different versions of Python or different Python libraries, you need this `pyenv` tool to manage Python versions or `pyenv-virtualenv` to manage different isolated environments with `pyenv`.(当你在开发多个 Python 项目，且这些项目依赖了不同版本的 Python 或者不同库时，就会需要 `pyenv` 来管理 Python 版本或者使用 `pyenv-virtualenv` 来管理不同独立的 Python 环境)
+When you develop multiple python projects, and these projects depends on different versions of Python or different Python libraries, you need this `pyenv` tool to manage Python versions or `pyenv-virtualenv` to manage different isolated environments with `pyenv`.
+
+(当你在开发多个 Python 项目，且这些项目依赖了不同版本的 Python 或者不同库时，就会需要 `pyenv` 来管理 Python 版本或者使用 `pyenv-virtualenv` 来管理不同独立的 Python 环境)
 
 ## How it works?
 
@@ -24,7 +30,9 @@ cmd[Python-related command<br/>Like python, pip, ...] --> Shims
 Shims --> pyenv
 ```
 
-Simply to say, any Python-related command (like pip, python, pydoc...) will be executed by `~/.pyenv/shims/<command>` first, then a proper Python version will be selected and the command will be executed(简单来说，所有与 Python 相关的指令(比如 pip, python, pydoc...)都会被 `~/.pyenv/shims/<command>` 执行，然后 `pyenv` 会选中一个合适的 Python 版本与环境来执行该指令).
+Simply to say, any Python-related command (like pip, python, pydoc...) will be executed by `~/.pyenv/shims/<command>` first, then a proper Python version will be selected and the command will be executed
+
+(简单来说，所有与 Python 相关的指令(比如 pip, python, pydoc...)都会被 `~/.pyenv/shims/<command>` 执行，然后 `pyenv` 会选中一个合适的 Python 版本与环境来执行该指令).
 
 ### Order of Python version selection
 
@@ -146,6 +154,15 @@ env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install x.x.x
 ls ~/.pyenv/version/x.x.x/lib
 ```
 
+## Q: Erorr occurred: `ModuleNotFoundError: No module named '_lzma'`
+
+Run commands below:
+
+```sh
+brew install xz
+pyenv uninstall <your_python_version>
+pyenv install <your_python_version>
+```
 ## References
 
 - \[1\] https://stackoverflow.com/questions/29950300/what-is-the-relationship-between-virtualenv-and-pyenv
