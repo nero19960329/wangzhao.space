@@ -1,7 +1,7 @@
 ---
 title: About me
-dateCreated: 2023-08-08T15:00
-dateModified: 2023-08-09T20:46
+dateCreated: 2023-08-27T17:42
+dateModified: 2023-10-02T17:03
 ---
 
 Hi, I'm Zhao Wang, a software development engineer.
@@ -17,3 +17,5 @@ Hi, I'm Zhao Wang, a software development engineer.
 	- Intern Software Development Engineer, [Hulu LLC.](https://www.hulu.com), Beijing
 - 2020.07~2023.07
 	- Software Development Engineer, [Megvii Inc.](https://en.megvii.com/), Beijing
+- 2023.10 ~ Present
+	- Software Development Engineer, Tus

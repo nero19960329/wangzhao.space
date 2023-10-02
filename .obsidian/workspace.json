@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "publish/About.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "publish/About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "publish/About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "publish/About.md"
               }
             }
           },
@@ -167,8 +167,15 @@
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/Ubuntu 防火墙设置.md",
+    "publish/Backend Developer Roadmap 1.md",
+    "publish/About.md",
+    "publish/使用约定式提交进行语义化版本控制.md",
+    "publish/算法基础 2.md",
+    "publish/算法基础 1.md",
+    "publish/获取机器 IP 地址的命令.md",
     "publish/记一次与 GPT-4 之间关于用户系统网站实现的讨论.md",
+    "README.md",
+    "publish/Ubuntu 防火墙设置.md",
     "publish/Docker 配置方式.md",
     "publish/标日上-4.md",
     "publish/も.md",
@@ -177,22 +184,15 @@
     "publish/标日上-3.md",
     "も.md",
     "publish/Enable Colored Logs in Supervisord with Unbuffer.md",
-    "publish/获取机器 IP 地址的命令.md",
     "publish/dig-DNS 查询工具.md",
     "publish/FastAPI 服务提供 OpenAI 流式接口.md",
     "publish/ssh 使用代理的方式.md",
     "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
-    "publish/算法基础 2.md",
-    "publish/算法基础 1.md",
     "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/Backend Developer Roadmap 2.md",
-    "publish/Backend Developer Roadmap 1.md",
     "publish/Nginx & Consul Usage.md",
     "publish/Rust Introduction.md",
     "publish/Site Reliability Engineering - Week 3 & 4.md",
-    "publish/Site Reliability Engineering - Week 2.md",
-    "publish/Site Reliability Engineering - Week 1.md",
-    "publish/pyenv instruction.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
