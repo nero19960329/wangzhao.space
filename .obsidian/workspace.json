@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/Windows 系统中 Powershell 按键设置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/Windows 系统中 Powershell 按键设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/Windows 系统中 Powershell 按键设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/About.md"
+                "file": "publish/Windows 系统中 Powershell 按键设置.md"
               }
             }
           },
@@ -167,8 +167,9 @@
   },
   "active": "012e77a1c95b38f5",
   "lastOpenFiles": [
-    "publish/Backend Developer Roadmap 1.md",
     "publish/About.md",
+    "publish/Windows 系统中 Powershell 按键设置.md",
+    "publish/Backend Developer Roadmap 1.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
@@ -192,7 +193,6 @@
     "publish/Backend Developer Roadmap 2.md",
     "publish/Nginx & Consul Usage.md",
     "publish/Rust Introduction.md",
-    "publish/Site Reliability Engineering - Week 3 & 4.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
