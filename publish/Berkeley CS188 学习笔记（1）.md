@@ -1,6 +1,6 @@
 ---
 dateCreated: 2023-10-05T01:01
-dateModified: 2023-10-05T01:29
+dateModified: 2023-10-05T01:31
 ---
 > 注，本文系从 https://web.archive.org 抢救而恢复，可能会丢失一些信息。
 
@@ -29,6 +29,7 @@ UCB的CS188课程名为Introduce to AI，人工智能导论，在edX网站中可
 
 先来看一下搜索算法的框架：
 
+![[Pasted image 20231005012939.png]]
 
 接下来的三种搜索方法都是以上面这个框架为基础。在该算法框架中，closed 是一个 set，以保证已经扩展过的状态不会再次被遍历到；fringe 则是一个容器，用来存储搜索中遍历到的状态；而 strategy 则是会影响容器 fringe 的排列方式。
 
