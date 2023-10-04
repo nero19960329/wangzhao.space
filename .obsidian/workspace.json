@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f8b0ea9643955b1c",
+        "id": "6c9e6a4508b64bc9",
         "type": "tabs",
         "children": [
           {
-            "id": "012e77a1c95b38f5",
+            "id": "fa30abfb8aac2dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Windows 系统中 Powershell 按键设置.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Windows 系统中 Powershell 按键设置.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Windows 系统中 Powershell 按键设置.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Windows 系统中 Powershell 按键设置.md"
+                "file": "publish/Berkeley CS188 学习笔记（1）.md"
               }
             }
           },
@@ -165,10 +165,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "012e77a1c95b38f5",
+  "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
-    "publish/About.md",
+    "publish/Berkeley CS188 学习笔记（1）.md",
     "publish/Windows 系统中 Powershell 按键设置.md",
+    "publish/About.md",
     "publish/Backend Developer Roadmap 1.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "publish/算法基础 2.md",
@@ -192,7 +193,6 @@
     "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/Backend Developer Roadmap 2.md",
     "publish/Nginx & Consul Usage.md",
-    "publish/Rust Introduction.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
