@@ -1,10 +1,10 @@
 ---
 dateCreated: 2023-10-05T01:01
-dateModified: 2023-10-05T01:18
+dateModified: 2023-10-05T01:29
 ---
 > 注，本文系从 https://web.archive.org 抢救而恢复，可能会丢失一些信息。
 
-UCB的CS188课程名为Introduce to AI，人工智能导论，在edX网站中可以进行在线学习，链接：[CS188](https://web.archive.org/web/20170912123211/https://edge.edx.org/courses/course-v1:BerkeleyX+CS188-SU16+SU16/info)
+UCB的CS188课程名为Introduce to AI，人工智能导论，在edX网站中可以进行在线学习，链接：[CS188](https://edge.edx.org/courses/course-v1:BerkeleyX+CS188-SU16+SU16/)
 
 本文主要是对Lecture2&3做一个总结，这两次课着重介绍了对搜索问题的建模方法以及搜索方法。
 
@@ -14,7 +14,7 @@ UCB的CS188课程名为Introduce to AI，人工智能导论，在edX网站中可
 
 举个例子，先来看这个地图：
 
-![[Pasted image 20231005011747.png]]
+![[Pasted image 20231005012548.png]]
 
 对于一个旅游问题，比如某人想从城市Arad移动至城市Bucharest来说，以上提到的几个要素的建模方法如下：
 
@@ -28,6 +28,7 @@ UCB的CS188课程名为Introduce to AI，人工智能导论，在edX网站中可
 ## Uninformed Search
 
 先来看一下搜索算法的框架：
+
 
 接下来的三种搜索方法都是以上面这个框架为基础。在该算法框架中，closed 是一个 set，以保证已经扩展过的状态不会再次被遍历到；fringe 则是一个容器，用来存储搜索中遍历到的状态；而 strategy 则是会影响容器 fringe 的排列方式。
 
@@ -82,5 +83,7 @@ $h(A)-h(C)\le cost(A\rightarrow C)$
 （consistency）
 
 A* 算法将会在扩张更少节点的情况下搜索到最优解，在Pacman游戏中的寻路问题上，A* 算法与贪心法、UCS 的比较如下图：
+
+![[Pasted image 20231005012753.png]]
 
 可以看到，贪心法虽然扩张的节点较少，但并没有找到最优解；UCS虽然找到了最优解，但几乎搜索了整张地图；而A* 算法在找到了最优解的情况下，只搜索了大概半张地图。
