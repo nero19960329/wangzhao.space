@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/Backend Developer Roadmap 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/Backend Developer Roadmap 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/Backend Developer Roadmap 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md"
+                "file": "publish/Backend Developer Roadmap 2.md"
               }
-            }
-          },
-          {
-            "id": "a9f5c25bd2c28578",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
             }
           },
           {
@@ -148,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,8 +159,15 @@
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
-    "publish/Backend Developer Roadmap 2.md",
     "publish/Berkeley CS188 学习笔记（1）.md",
+    "publish/Backend Developer Roadmap 2.md",
+    "publish/Rust Introduction.md",
+    "publish/Site Reliability Engineering - Week 1.md",
+    "publish/Python3 wheel 包生成.md",
+    "publish/pyenv instruction.md",
+    "publish/Backend Developer Roadmap 1.md",
+    "publish/使用约定式提交进行语义化版本控制.md",
+    "publish/标日上-3.md",
     "images/Pasted image 20231005012548.png",
     "images/Pasted image 20231005012939.png",
     "images",
@@ -177,8 +176,6 @@
     "Pasted image 20231005011747.png",
     "publish/Windows 系统中 Powershell 按键设置.md",
     "publish/About.md",
-    "publish/Backend Developer Roadmap 1.md",
-    "publish/使用约定式提交进行语义化版本控制.md",
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
     "publish/获取机器 IP 地址的命令.md",
@@ -190,14 +187,10 @@
     "publish/も.md",
     "と.md",
     "publish/と.md",
-    "publish/标日上-3.md",
     "も.md",
     "publish/Enable Colored Logs in Supervisord with Unbuffer.md",
     "publish/dig-DNS 查询工具.md",
     "publish/FastAPI 服务提供 OpenAI 流式接口.md",
-    "publish/ssh 使用代理的方式.md",
-    "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
-    "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
