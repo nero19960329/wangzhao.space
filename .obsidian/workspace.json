@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Backend Developer Roadmap 2.md",
+                "file": "publish/标日上-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Backend Developer Roadmap 2.md",
+                "file": "publish/标日上-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Backend Developer Roadmap 2.md",
+                "file": "publish/标日上-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Backend Developer Roadmap 2.md"
+                "file": "publish/标日上-3.md"
               }
             }
           },
@@ -159,13 +159,14 @@
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
-    "publish/Berkeley CS188 学习笔记（1）.md",
+    "publish/pyenv instruction.md",
+    "publish/Site Reliability Engineering - Week 1.md",
+    "publish/Rust Introduction.md",
+    "publish/Python3 wheel 包生成.md",
     "publish/Backend Developer Roadmap 2.md",
     "publish/Backend Developer Roadmap 1.md",
-    "publish/Rust Introduction.md",
-    "publish/Site Reliability Engineering - Week 1.md",
-    "publish/Python3 wheel 包生成.md",
-    "publish/pyenv instruction.md",
+    "publish/Berkeley CS188 学习笔记（1）.md",
+    "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "publish/标日上-3.md",
     "images/Pasted image 20231005012548.png",
@@ -190,7 +191,6 @@
     "も.md",
     "publish/Enable Colored Logs in Supervisord with Unbuffer.md",
     "publish/dig-DNS 查询工具.md",
-    "publish/FastAPI 服务提供 OpenAI 流式接口.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",

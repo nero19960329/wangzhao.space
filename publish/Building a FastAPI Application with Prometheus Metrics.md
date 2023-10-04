@@ -1,7 +1,7 @@
 ---
 title: Building a FastAPI Application with Prometheus Metrics
 dateCreated: 2023-04-03T14:52
-dateModified: 2023-08-09T02:09
+dateModified: 2023-10-05T02:00
 ---
 
 ## Introduction
