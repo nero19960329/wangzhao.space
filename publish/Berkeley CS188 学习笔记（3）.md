@@ -70,15 +70,15 @@ $\Rightarrow V^{*}(s)=\max\limits_{a} \sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'
 价值迭代算法存在着一些问题：
 
 - 时间复杂度较高
-- 每个状态的最佳策略往往在![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值收敛前就已经收敛了
+- 每个状态的最佳策略往往在 $V$ 值收敛前就已经收敛了
 
 针对上列问题，我们可以对策略进行迭代，该方法称为**策略迭代**（policy iteration）：
 
-- 策略评估：针对固定策略![\pi](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_4f08e3dba63dc6d40b22952c7a9dac6d.gif)计算出所有状态的![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值
+- 策略评估：针对固定策略 $\pi$ 计算出所有状态的 $V$ 值
 - 策略改进：对于每个状态，都找出当前的最优动作，更新策略
 - 重复上两步，直到策略收敛
 
-其中策略评估可以使用迭代法（利用Bellman等式，时间复杂度：![O(S^{2})](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_7c55374c0cf8e9732b15d5e57d385b55.gif)每步），也可以将Bellman等式看做一个线性系统进行求解。
+其中策略评估可以使用迭代法（利用 Bellman 等式，时间复杂度：$O(S^{2})$ 每步），也可以将Bellman等式看做一个线性系统进行求解。
 
 策略迭代方法的运行速度比价值迭代方法快了不少，并且也会收敛到最优策略。
 
@@ -86,52 +86,52 @@ $\Rightarrow V^{*}(s)=\max\limits_{a} \sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'
 
 强化学习的基本思想如下：
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l9_rl_basic_idea.png)
+![](https://i.imgur.com/P5l33Gp.png)
 
 - 环境会以收益的形式给出反馈
-- agent的效益由收益函数定义
+- agent 的效益由收益函数定义
 - 学习能够最大化收益期望的策略
 - 所有学习过程都基于在游戏探索得到的样本
 
-之所以我们需要探索游戏，是因为游戏（MDP）中的![T](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_b9ece18c950afbfa6b0fdbfa4ff731d3.gif)（转移函数）和![R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_e1e1d3d40573127e9ee0480caf1283d6.gif)（收益函数）是未知的。
+之所以我们需要探索游戏，是因为游戏（MDP）中的 $T$（转移函数）和 $R$（收益函数）是未知的。
 
 ### 基于模型的学习
 
 基本思想：
 
-- 根据经验学习一个大概的模型（估计![T](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_b9ece18c950afbfa6b0fdbfa4ff731d3.gif)和![R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_e1e1d3d40573127e9ee0480caf1283d6.gif)）
-- 对这个学习出的MDP进行求解
+- 根据经验学习一个大概的模型（估计 $T$ 和 $R$）
+- 对这个学习出的 MDP 进行求解
 
 看个例子，
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l9_model_based_example.png)
+![](https://i.imgur.com/zDfjBEW.png)
 
-根据输入的策略![\pi](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_4f08e3dba63dc6d40b22952c7a9dac6d.gif)，可以得到若干遍历结果，从而可以对![T,R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_45578fde7dd459a36369694203cc0118.gif)进行估计。
+根据输入的策略 $\pi$，可以得到若干遍历结果，从而可以对 $T,R$ 进行估计。
 
 ### 无模型学习
 
-**被动强化学习**（passive reinforcement learning），类似于之前介绍的策略迭代，首先对一个输入的固定策略进行评估，之后对策略进行优化改进。那么问题就是，我们没有![T,R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_45578fde7dd459a36369694203cc0118.gif)，无法使用之前的方法直接进行策略评估，所以需要尝试新的方法。
+**被动强化学习**（passive reinforcement learning），类似于之前介绍的策略迭代，首先对一个输入的固定策略进行评估，之后对策略进行优化改进。那么问题就是，我们没有 $T,R$，无法使用之前的方法直接进行策略评估，所以需要尝试新的方法。
 
-直接评估，针对固定策略![\pi](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_4f08e3dba63dc6d40b22952c7a9dac6d.gif)，按照该策略进行游戏，并记录每一步的收益，并最终通过取平均来获得每个状态的![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值。看个例子，
+直接评估，针对固定策略 $\pi$，按照该策略进行游戏，并记录每一步的收益，并最终通过取平均来获得每个状态的 $V$ 值。看个例子，
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l9_direct_evaluation_exmaple.png)
+![](https://i.imgur.com/gqsYfcZ.png)
 
-比如![V(B)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_8cde6af5135e47223edbfd3967ddeddb.gif)，由于样本中从状态![B](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_9d5ed678fe57bcca610140957afab571.gif)出发，只有向东走的情况，所以![V(B)=\frac{(-1-1+10)+(-1-1+10)}{2}=8](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_73e0a7c645d6fa2e03f54b17746607ca.gif)，其余类似。这个方法很直观，也不需要![T,R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_45578fde7dd459a36369694203cc0118.gif)的任何信息，但忽略了状态间的关系，且每个状态必须分开学习，所以需要较长时间去学习。
+比如 $V(B)$，由于样本中从状态 $B$ 出发，只有向东走的情况，所以 $V(B)=\frac{(-1-1+10)+(-1-1+10)}{2}=8$，其余类似。这个方法很直观，也不需要 $T,R$ 的任何信息，但忽略了状态间的关系，且每个状态必须分开学习，所以需要较长时间去学习。
 
 既然这个方法不行，那么我们又想回上一节策略评估的方法：通过下式进行迭代，
 
-![V_{k+1}^{\pi}(s)\leftarrow\sum\limits_{s^{'}}T(s,\pi (s),s^{'})[R(s,\pi (s),s^{'})+\gamma V_{k}^{\pi}(s^{'})]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_022057af0ccd144c8ecddaa893dca491.gif)
+$V_{k+1}^{\pi}(s)\leftarrow\sum\limits_{s^{'}}T(s,\pi (s),s^{'})[R(s,\pi (s),s^{'})+\gamma V_{k}^{\pi}(s^{'})]$
 
-虽然没有![T,R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_45578fde7dd459a36369694203cc0118.gif)也就无法使用上式，但我们可以在游戏中进行一系列采样：
+虽然没有 $T,R$ 也就无法使用上式，但我们可以在游戏中进行一系列采样：
 
-![sample_{i}=R(s,\pi (s),s_{i}^{'})+\gamma V_{k}^{\pi}(s_{i}^{'})\\ V_{k+1}^{\pi}(s)\leftarrow \frac{1}{n}\sum\limits_{i}sample_{i}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_1269ac981d5c677910f007a2cd91e91f.gif)
+$sample_{i}=R(s,\pi (s),s_{i}^{'})+\gamma V_{k}^{\pi}(s_{i}^{'})\\ V_{k+1}^{\pi}(s)\leftarrow \frac{1}{n}\sum\limits_{i}sample_{i}$
 
-通过对采样进行平均，从而得到每个状态的![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值。
+通过对采样进行平均，从而得到每个状态的 $V$ 值。
 
-进一步，我们需要将算法调节成迭代算法，这样就不用针对每个状态单独进行估值，而是每次进行游戏都可以使路径中的状态![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值迭代逼近真正的值。这种方法被称为**时间差分学习**（temporal difference learning）。以固定策略进行游戏的情况下，每次迭代都将更新状态的![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值，公式如下：
+进一步，我们需要将算法调节成迭代算法，这样就不用针对每个状态单独进行估值，而是每次进行游戏都可以使路径中的状态 $V$ 值迭代逼近真正的值。这种方法被称为**时间差分学习**（temporal difference learning）。以固定策略进行游戏的情况下，每次迭代都将更新状态的 $V$ 值，公式如下：
 
-- ![sample=R(s,\pi (s),s^{'})+\gamma V^{\pi}(s^{'})](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_0a550d648892f580612ac274189b7a43.gif)
-- ![V^{\pi}(s)\leftarrow (1-\alpha)V^{\pi}(s)+\alpha sample](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_694cad218dea93c6928bc24fc36ff1b6.gif)
+- $sample=R(s,\pi (s),s^{'})+\gamma V^{\pi}(s^{'})$
+- $V^{\pi}(s)\leftarrow (1-\alpha)V^{\pi}(s)+\alpha sample$
 
 这个方法很好，但我们不能忘了目标，我们需要找到每个状态的最优动作，也即对于状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)，需要找到  
 
