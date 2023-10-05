@@ -166,7 +166,7 @@ $sample=R(s,a,s^{'})+\gamma\max_{a^{'}}f(Q(s^{'},a^{'}),N(s^{'},a^{'}))$
 
 然而在实际问题中，会有很多很多的状态，当状态足够多时，我们不可能存储所有的 $Q$ 值。而且某些状态比较相近，但我们的 Q-Learning 方法仍然将它们视为完全不同的状态。举个例子，
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l10_simular_states.png)
+![](https://i.imgur.com/33PdXoj.png)
 
 前两个状态，pacman 都是被两只鬼堵在角落里，实质上 pacman 所处的情形差不多。一、三两个状态更是几乎完全相同，只是右上角的一块食物在第三个状态中被吃掉。然而它们都被视为了完全不同的状态，这一点可以被我们用来优化算法。
 
