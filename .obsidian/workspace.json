@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/pyenv instruction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/pyenv instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md",
+                "file": "publish/pyenv instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（1）.md"
+                "file": "publish/pyenv instruction.md"
               }
             }
           },
@@ -159,14 +159,14 @@
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
+    "publish/Python3 wheel 包生成.md",
+    "publish/pyenv instruction.md",
+    "publish/Berkeley CS188 学习笔记（1）.md",
     "publish/Backend Developer Roadmap 1.md",
     "publish/标日上-3.md",
-    "publish/pyenv instruction.md",
     "publish/Site Reliability Engineering - Week 1.md",
     "publish/Rust Introduction.md",
-    "publish/Python3 wheel 包生成.md",
     "publish/Backend Developer Roadmap 2.md",
-    "publish/Berkeley CS188 学习笔记（1）.md",
     "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "images/Pasted image 20231005012548.png",

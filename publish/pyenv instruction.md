@@ -1,7 +1,6 @@
 ---
 title: pyenv instruction
-dateCreated: 2023-09-29T11:33:00
-dateModified: 2023-10-05T02:02
+dateCreated: 2022-05-20T22:51:00
 ---
 
 ## What is pyenv?
