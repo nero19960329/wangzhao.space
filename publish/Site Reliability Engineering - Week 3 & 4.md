@@ -1,7 +1,6 @@
 ---
 title: Site Reliability Engineering - Week 3 & 4
 dateCreated: 2022-09-03T16:41
-dateModified: 2023-08-09T02:04
 ---
 
 ## Course Link

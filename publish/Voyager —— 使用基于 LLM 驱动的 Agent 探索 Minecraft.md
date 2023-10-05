@@ -1,7 +1,6 @@
 ---
 title: Voyager — 使用基于 LLM 驱动的 Agent 探索 Minecraft
 dateCreated: 2023-06-13T18:25
-dateModified: 2023-08-09T02:12
 ---
 
 官方网址：https://voyager.minedojo.org/

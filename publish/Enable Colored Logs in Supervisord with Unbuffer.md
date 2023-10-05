@@ -1,6 +1,5 @@
 ---
 dateCreated: 2023-08-09T13:57
-dateModified: 2023-08-09T13:58
 ---
 
 When using Supervisord to manage your application's processes, you may encounter issues with colored logs not being correctly displayed in the `stderr_logfile`. One possible solution is to use the `unbuffer` command, which disables buffering and allows color escape sequences to be printed to the log files.

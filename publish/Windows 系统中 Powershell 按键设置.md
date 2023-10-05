@@ -1,6 +1,5 @@
 ---
 dateCreated: 2023-10-02T17:05
-dateModified: 2023-10-02T17:12
 ---
 在使用 Powershell 时，有时想绑定一些自定义的快捷键，可以使用如下两条命令：
 - `Get-PSReadlineKeyHandler`

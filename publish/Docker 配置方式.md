@@ -1,6 +1,5 @@
 ---
 dateCreated: 2023-08-10T22:08
-dateModified: 2023-08-10T23:44
 ---
 
 在这篇文章中，我将指导你如何在你的系统上配置 Docker。我们将分别介绍 Linux 和 MacOS 下的安装方式。

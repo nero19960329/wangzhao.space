@@ -1,7 +1,6 @@
 ---
 title: Site Reliability Engineering - Week 2
 dateCreated: 2022-08-30T00:01
-dateModified: 2023-08-09T02:03
 ---
 
 ## Course Link

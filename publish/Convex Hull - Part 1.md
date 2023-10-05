@@ -1,7 +1,6 @@
 ---
 title: Convex Hull - Part 1
 dateCreated: 2018-02-27T16:40
-dateModified: 2023-08-08T03:20
 ---
 
 这学期有幸选到了贵系邓俊辉老师的《计算几何》，这学期会随着课程进度更新一些笔记。

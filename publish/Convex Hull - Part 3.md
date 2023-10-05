@@ -1,7 +1,6 @@
 ---
 title: Convex Hull - Part 3
 dateCreated: 2018-03-13T18:45
-dateModified: 2023-08-09T01:38
 ---
 
 这次继续介绍几个凸包算法，包括 Graham scan 和快速凸包算法。

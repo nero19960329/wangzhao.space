@@ -1,7 +1,6 @@
 ---
 title: Hugo with Docsy theme
 dateCreated: 2022-05-19T00:28
-dateModified: 2023-08-09T01:48
 ---
 
 ## Install Hugo

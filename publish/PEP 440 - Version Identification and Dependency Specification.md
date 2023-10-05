@@ -1,7 +1,6 @@
 ---
 title: PEP 440 - Version Identification and Dependency Specification
 dateCreated: 2022-04-20T16:49
-dateModified: 2023-08-09T01:56
 ---
 
 原文链接：[https://peps.python.org/pep-0440/#version-specifiers](https://peps.python.org/pep-0440/#version-specifiers)

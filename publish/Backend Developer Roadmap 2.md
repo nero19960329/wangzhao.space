@@ -1,7 +1,6 @@
 ---
 title: "What is HTTP? - Backend Developer Roadmap #2"
 dateCreated: 2023-03-28T18:06
-dateModified: 2023-10-05T01:48
 ---
 
 Roadmap: [https://roadmap.sh/backend](https://roadmap.sh/backend) 

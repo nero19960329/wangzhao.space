@@ -1,7 +1,6 @@
 ---
 title: Convex Hull - Part 2
 dateCreated: 2018-03-06T18:07
-dateModified: 2023-08-08T03:35
 ---
 
 先来说两个简单的计算几何小问题：

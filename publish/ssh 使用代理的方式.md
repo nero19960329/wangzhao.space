@@ -1,6 +1,5 @@
 ---
 dateCreated: 2023-08-09T13:45
-dateModified: 2023-08-09T13:50
 ---
 
 `ssh xx.xx.xx.xx -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p"`
