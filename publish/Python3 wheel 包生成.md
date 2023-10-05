@@ -15,7 +15,7 @@ dateCreated: 2022-01-06T11:53:00
 
 ## Quick Start
 
-![](https://s1.ax1x.com/2023/03/27/ppyFnq1.png)
+![](https://i.imgur.com/9rirDOW.png)
 
 ### 环境配置
 

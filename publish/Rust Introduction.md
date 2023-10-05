@@ -30,7 +30,7 @@ Rust’s rich type system and ownership model guarantee memory-safety and thread
 Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling — an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.
 > 
 
-![](https://s1.ax1x.com/2023/03/27/ppyF7QJ.png)
+![](https://i.imgur.com/9iYVPGH.png)
 
 ## 安装
 

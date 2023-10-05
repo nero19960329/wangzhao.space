@@ -7,13 +7,13 @@ dateCreated: 2023-06-13T18:25
 
 用基于 LLM 的 Agent，通过“提问→求解→技能池”循环来不断探索游戏内容。和 SOTA 比，建造物品的数量是 3.3 倍、探索范围是 2.3 倍、解锁关键科技结点的速度是 15.3 倍。
 
-![](https://s1.ax1x.com/2023/06/13/pCmD1OI.png)
+![](https://i.imgur.com/UsKecBH.png)
 
 ## 关键概念
 
 系统整体逻辑循环如下：
 
-![](https://s1.ax1x.com/2023/06/13/pCmDl6A.png)
+![](https://i.imgur.com/fjAg3Fg.png)
 
 - Automatic Curriculum: Curriculum Agent —— 提出目标
 - Iterative Prompting Mechanism: Action Agent —— 实现目标

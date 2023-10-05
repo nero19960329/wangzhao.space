@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/Rust Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/Rust Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md",
+                "file": "publish/Rust Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Convex Hull - Part 1.md"
+                "file": "publish/Rust Introduction.md"
               }
             }
           },
@@ -157,8 +157,12 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "fa30abfb8aac2dfc",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
+    "publish/使用约定式提交进行语义化版本控制.md",
+    "publish/Python3 wheel 包生成.md",
+    "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
+    "publish/Convex Hull - Part 1.md",
     "publish/Building a FastAPI Application with Prometheus Metrics.md",
     "publish/Berkeley CS188 学习笔记（3）.md",
     "publish/Berkeley CS188 学习笔记（2）.md",
@@ -169,7 +173,6 @@
     "publish/About.md",
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
-    "publish/使用约定式提交进行语义化版本控制.md",
     "publish/获取机器 IP 地址的命令.md",
     "publish/标日上-4.md",
     "publish/标日上-3.md",
@@ -182,9 +185,6 @@
     "publish/と.md",
     "publish/か.md",
     "publish/Windows 系统中 Powershell 按键设置.md",
-    "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
-    "publish/Ubuntu 防火墙设置.md",
-    "publish/ssh 使用代理的方式.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
