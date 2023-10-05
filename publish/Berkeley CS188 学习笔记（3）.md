@@ -35,40 +35,37 @@ $T((3,1),North,(4,1))=0.1$
 
 **收益**（reward）函数对最佳策略的影响见下图：
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l7_optimal_policies.png)
+![](https://i.imgur.com/FiUGnIN.png)
 
-比较有趣的是，当每一步的收益亏损很大时（右下角），在陷阱附近的agent将会倾向于自杀，因为自杀也只不过扣1分，而继续活着将扣2分。
+比较有趣的是，当每一步的收益亏损很大时（右下角），在陷阱附近的 agent 将会倾向于自杀，因为自杀也只不过扣1分，而继续活着将扣2分。
 
 值得一提的是，马尔科夫通常代表，针对当前状态来讲，未来以及过往都是独立的。在MDP中具体来说，可以用下面这个式子来表达：
 
-![P(S_{t+1}=s^{'}|S_{t}=s_{t},A_{t}=a_{t},S_{t-1}=s_{t-1},A_{t-1}=a_{t-1},\cdots ,S_{0}=s_{0})=P(S_{t+1}=s^{'}|S_{t}=s_{t},A_{t}=a_{t})](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_6eb59bb15d41f4f5b46ad0745bef40a5.gif)
+$P(S_{t+1}=s^{\prime}|S_{t}=s_{t},A_{t}=a_{t},S_{t-1}=s_{t-1},A_{t-1}=a_{t-1},\cdots,S_{0}=s_{0})=P(S_{t+1}=s^{\prime}|S_{t}=s_{t},A_{t}=a_{t})$
 
-接下来介绍**折扣**（discounting）概念。在我们最大化收益的同时，我们倾向于更早地获得收益，以及更晚地获得负收益。所以可以考虑将收益进行指数性减小，每经过一步，收益都会乘以一个因子![\gamma\in(0,1)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_0076b144c37c810860be29b8672c5054.gif)。
+接下来介绍**折扣**（discounting）概念。在我们最大化收益的同时，我们倾向于更早地获得收益，以及更晚地获得负收益。所以可以考虑将收益进行指数性减小，每经过一步，收益都会乘以一个因子 $\gamma\in(0,1)$。
 
-现在考虑对MDP的求解。首先定义几个概念：
+现在考虑对 MDP 的求解。首先定义几个概念：
 
-- ![V^{*}(s)=](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_4a1c676390900dc694a77247d270f36f.gif)在状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)下开始，进行最优操作所获得的收益期望
-- ![Q^{*}(s,a)=](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_a1185628172d4049b1a0915217068855.gif)从状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)进行动作![a](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_0cc175b9c0f1b6a831c399e269772661.gif)后，进行最优操作所获得的收益期望
-- ![\pi^{*}(s)=](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_bc50384c0ffa3182d757c245865fa6d0.gif)状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)的最优操作
+- $V^{*}(s)=$ 在状态 $s$ 下开始，进行最优操作所获得的收益期望
+- $Q^{*}(s,a)=$ 从状态 $s$ 进行动作 $a$ 后，进行最优操作所获得的收益期望
+- $\pi^{*}(s)=$ 状态 $s$ 的最优操作
 
-可以类比之前学过的 Expecimax Search ，通过构造出类似的搜索树，可以得到如下几个公式（**Bellman等式**）：
+可以类比之前学过的 Expectimax Search ，通过构造出类似的搜索树，可以得到如下几个公式（**Bellman 等式**）：
 
-![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l7_expectimax_search_tree.png)
-
-- ![V^{*}(s)=\max\limits_{a} Q^{*}(s,a)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_60cd09a784d646949f4cc144d448251d.gif)
-- ![Q^{*}(s,a)=\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V^{*}(s^{'})]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_85d938844d5e0c1fe732f8ee5177f523.gif)
-
-![\Rightarrow V^{*}(s)=\max\limits_{a} \sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V^{*}(s^{'})]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_18d46afcdf7d7e52d2cf2844d59775d4.gif)
+- $V^{*}(s)=\max\limits_{a} Q^{*}(s,a)$
+- $Q^{*}(s,a)=\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V^{*}(s^{'})]$
+$\Rightarrow V^{*}(s)=\max\limits_{a} \sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V^{*}(s^{'})]$
 
 但如果还用之前的搜索法来对这个问题进行求解，速度就太慢了。所以引入新的算法：**价值迭代**（value iteration）：
 
-- ![\forall s\in S\quad V_{0}(s)=0](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_ed7651c3ebba110e797e5cadf7530f4e.gif)
-- ![\forall s\in S\quad V_{k+1}(s)\leftarrow \max\limits_{a}\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V_{k}(s^{'})]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_facf02cdcc71b8d1af96545d52a234e0.gif)
+- $\forall s\in S\quad V_{0}(s)=0$
+- $\forall s\in S\quad V_{k+1}(s)\leftarrow \max\limits_{a}\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V_{k}(s^{'})]$
 - 重做第二步，直到收敛
 
-价值迭代法每一步的时间复杂度为 ![O(S^{2}A)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_43f9fc7fa7de4acfa1978470a66c0700.gif)，而且当![\gamma\in (0,1)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_7c2d75b10d7df6964fd67d507bf2d630.gif)时，算法必然收敛。
+价值迭代法每一步的时间复杂度为 $O(S^{2}A)$，而且当 $\gamma\in (0,1)$ 时，算法必然收敛。
 
-在使用价值迭代法得到每个状态的![V^{*}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_55d5515825d642cb3a0697ca97312625.gif)值后，怎么得到某个状态下的最佳策略呢？这时我们需要在该状态下计算其所有![Q^{*}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_ea5ccb5e3dbe06fadb17a6142f115b63.gif)值，并取使![Q^{*}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_ea5ccb5e3dbe06fadb17a6142f115b63.gif)最大的动作作为在该状态下的最佳动作。
+在使用价值迭代法得到每个状态的 $V^{*}$ 值后，怎么得到某个状态下的最佳策略呢？这时我们需要在该状态下计算其所有 $Q^{*}$ 值，并取使 $Q^{*}$ 最大的动作作为在该状态下的最佳动作。
 
 价值迭代算法存在着一些问题：
 
