@@ -1,7 +1,6 @@
 ---
 title: About me
 dateCreated: 2023-08-27T17:42
-dateModified: 2023-10-02T17:05
 ---
 
 Hi, I'm Zhao Wang, a software development engineer.

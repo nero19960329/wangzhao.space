@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/About Ray Tracing & MCPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/About Ray Tracing & MCPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/About Ray Tracing & MCPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/pyenv instruction.md"
+                "file": "publish/About Ray Tracing & MCPT.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
-    "publish/Python3 wheel 包生成.md",
+    "publish/About.md",
+    "publish/About Ray Tracing & MCPT.md",
     "publish/pyenv instruction.md",
+    "publish/Python3 wheel 包生成.md",
     "publish/Berkeley CS188 学习笔记（1）.md",
     "publish/Backend Developer Roadmap 1.md",
     "publish/标日上-3.md",
@@ -176,7 +178,6 @@
     "images/Pasted image 20231005012753.png",
     "Pasted image 20231005011747.png",
     "publish/Windows 系统中 Powershell 按键设置.md",
-    "publish/About.md",
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
     "publish/获取机器 IP 地址的命令.md",
@@ -190,7 +191,6 @@
     "publish/と.md",
     "も.md",
     "publish/Enable Colored Logs in Supervisord with Unbuffer.md",
-    "publish/dig-DNS 查询工具.md",
     "publish/未命名.canvas",
     "publish/attachments/Knowledge-Graph.png.png",
     "publish/attachments/未命名.canvas",
