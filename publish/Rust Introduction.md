@@ -326,11 +326,11 @@ from [https://kaisery.github.io/trpl-zh-cn/ch04-01-what-is-ownership.html](https
 
 但 `String` 由于有一个指向堆的指针（存储在栈上）
 
-![](https://s1.ax1x.com/2023/03/27/ppyFIWF.png)
+![](https://i.imgur.com/vwjU8XS.png)
 
 所以 `let s2 = s1;` 一句实际上做的是 move 操作（与 cpp 的 std::move 类似）
 
-![](https://s1.ax1x.com/2023/03/27/ppyFoz4.png)
+![](https://i.imgur.com/mWQ9hAQ.png)
 
 执行后 `s1` 变成了一个无效的变量，不能再被使用了。
 

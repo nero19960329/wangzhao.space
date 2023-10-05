@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Rust Introduction.md",
+                "file": "publish/Backend Developer Roadmap 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 269.5
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Rust Introduction.md",
+                "file": "publish/Backend Developer Roadmap 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Rust Introduction.md",
+                "file": "publish/Backend Developer Roadmap 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Rust Introduction.md"
+                "file": "publish/Backend Developer Roadmap 4.md"
               }
             }
           },
@@ -157,8 +157,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "323791d2f3250200",
+  "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
+    "publish/Backend Developer Roadmap 3.md",
+    "publish/Backend Developer Roadmap 4.md",
+    "publish/Backend Developer Roadmap 2.md",
+    "publish/Backend Developer Roadmap 1.md",
+    "publish/Rust Introduction.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "publish/Python3 wheel 包生成.md",
     "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
@@ -167,8 +172,6 @@
     "publish/Berkeley CS188 学习笔记（3）.md",
     "publish/Berkeley CS188 学习笔记（2）.md",
     "publish/Berkeley CS188 学习笔记（1）.md",
-    "publish/Backend Developer Roadmap 2.md",
-    "publish/Backend Developer Roadmap 1.md",
     "publish/About Ray Tracing & MCPT.md",
     "publish/About.md",
     "publish/算法基础 2.md",
@@ -182,9 +185,6 @@
     "publish/も.md",
     "publish/は.md",
     "publish/の.md",
-    "publish/と.md",
-    "publish/か.md",
-    "publish/Windows 系统中 Powershell 按键设置.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
