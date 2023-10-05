@@ -133,49 +133,49 @@ $sample_{i}=R(s,\pi (s),s_{i}^{'})+\gamma V_{k}^{\pi}(s_{i}^{'})\\ V_{k+1}^{\pi}
 - $sample=R(s,\pi (s),s^{'})+\gamma V^{\pi}(s^{'})$
 - $V^{\pi}(s)\leftarrow (1-\alpha)V^{\pi}(s)+\alpha sample$
 
-这个方法很好，但我们不能忘了目标，我们需要找到每个状态的最优动作，也即对于状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)，需要找到  
+这个方法很好，但我们不能忘了目标，我们需要找到每个状态的最优动作，也即对于状态 $s$，需要找到  
 
-![\pi (s)=\operatorname*{argmax}\limits_{a} Q(s,a)=\operatorname*{argmax}\limits_{a}\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V(s^{'})]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_e57b8157ee4f0a2fbbfa9a260b8b0c21.gif)
+$\pi (s)=\operatorname*{argmax}\limits_{a} Q(s,a)=\operatorname*{argmax}\limits_{a}\sum\limits_{s^{'}}T(s,a,s^{'})[R(s,a,s^{'})+\gamma V(s^{'})]$
 
   
-由于对![T,R](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_45578fde7dd459a36369694203cc0118.gif)的缺失，导致无法从已有的![V](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_5206560a306a2e085a437fd258eb57ce.gif)值中榨取出最优动作，所以我们应该考虑对![Q](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_f09564c9ca56850d4cd6b3319e541aee.gif)值进行学习。
+由于对 $T,R$ 的缺失，导致无法从已有的 $V$ 值中榨取出最优动作，所以我们应该考虑对 $Q$ 值进行学习。
 
 **主动增强学习**（active reinforcement learning），其与被动增强学习的区别在于，学习者需要自己选择策略对游戏进行探索，而不是之前的按照既定策略进行探索然后更新。
 
-**Q-Learning**，通过自定的策略对游戏进行探索，并更新状态![s](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_03c7c0ace395d80182db07ae2c30f034.gif)及对应动作![a](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_0cc175b9c0f1b6a831c399e269772661.gif)的![Q](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_f09564c9ca56850d4cd6b3319e541aee.gif)值：
+**Q-Learning**，通过自定的策略对游戏进行探索，并更新状态 $s$ 及对应动作 $a$ 的 $Q$ 值：
 
-- 探索得到一个样本：![(s,a,s^{'},r)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_14923d616bb1fc42f9d9790884fa36d4.gif)
-- 考虑旧的估计值 ![Q(s,a)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_963cd803370b3ba71a0f49cbad92ccee.gif)
-- 考虑新样本的估计值 ![sample=R(s,a,s^{'})+\gamma\max_{a^{'}}Q(s^{'},a^{'})](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_eb39203cc7061d3d71c3d7644bd46f03.gif)
-- 将新旧估计值做加权平均：![Q(s,a)\leftarrow (1-\alpha)Q(s,a)+\alpha\cdot sample](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_940a60d4385923681525f2a00b1bd737.gif)
+- 探索得到一个样本：$(s,a,s^{'},r)$
+- 考虑旧的估计值 $Q(s,a)$
+- 考虑新样本的估计值 $sample=R(s,a,s^{'})+\gamma\max_{a^{'}}Q(s^{'},a^{'})$
+- 将新旧估计值做加权平均：$Q(s,a)\leftarrow (1-\alpha)Q(s,a)+\alpha\cdot sample$
 
 Q-Learning将会收敛至最优策略，但也有几个附加说明：
 
 - 需要足够多的探索
-- 学习率![\alpha](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_7b7f9dbfea05c83784f8b85149852f08.gif)需要逐渐变小（比如![\frac{1}{n}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_9ba22ee6c5f55c74af52949dd103f942.gif)，但也不能减小得太快）
+- 学习率 $\alpha$ 需要逐渐变小（比如 $\frac{1}{n}$，但也不能减小得太快）
 
 在Q-Learning中，比较重要的一点是在**exploration**和**exploitation**中做一个 trade-off 。
 
-一种比较简单的做法就是设定一个阈值![\epsilon](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_92e4da341fe8f4cd46192f21b6ff3aa7.gif)，随后每次做选择时roll一个0到1之间的随机数，如果小于![\epsilon](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_92e4da341fe8f4cd46192f21b6ff3aa7.gif)，则随机选择动作（exploration）；否则，选择当前的最优决策（exploitation）。
+一种比较简单的做法就是设定一个阈值 $\epsilon$，随后每次做选择时 roll 一个 0 到 1 之间的随机数，如果小于 $\epsilon$，则随机选择动作（exploration）；否则，选择当前的最优决策（exploitation）。
 
-稍微复杂些的做法是设置一个exploration function，比如：![f(u,n)=u+\frac{k}{n}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_dacddc8b9d109a6f44505fcacc2fe8a1.gif)，其中![u,n](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_96f21df067b3ff769d9b773e1b33851a.gif)分别代表估计值和探索次数，那么改良后的Q-Learning中每个样本估计值的表达式将变为：
+稍微复杂些的做法是设置一个 exploration function，比如：$f(u,n)=u+\frac{k}{n}$ ，其中 $u,n$ 分别代表估计值和探索次数，那么改良后的 Q-Learning 中每个样本估计值的表达式将变为：
 
-![sample=R(s,a,s^{'})+\gamma\max_{a^{'}}f(Q(s^{'},a^{'}),N(s^{'},a^{'}))](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_ad7b74c02c0fd02f33383ca6ff76d5bc.gif)
+$sample=R(s,a,s^{'})+\gamma\max_{a^{'}}f(Q(s^{'},a^{'}),N(s^{'},a^{'}))$
 
-这样一来，当agent进行探索时，也会更倾向于考虑探索次数少的动作，而且当![n](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_7b8b965ad4bca0e41ab51de7b31363a1.gif)越来越大时，![\frac{k}{n}](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_fda8af4743433ddceb8ff7765b97fd18.gif)一项对![Q](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_f09564c9ca56850d4cd6b3319e541aee.gif)的影响也越来越小，最终将不会影响最优策略的选择。
+这样一来，当 agent 进行探索时，也会更倾向于考虑探索次数少的动作，而且当 $n$ 越来越大时，$\frac{k}{n}$ 一项对 $Q$ 的影响也越来越小，最终将不会影响最优策略的选择。
 
-然而在实际问题中，会有很多很多的状态，当状态足够多时，我们不可能存储所有的![Q](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_f09564c9ca56850d4cd6b3319e541aee.gif)值。而且某些状态比较相近，但我们的Q-Learning方法仍然将它们视为完全不同的状态。举个例子，
+然而在实际问题中，会有很多很多的状态，当状态足够多时，我们不可能存储所有的 $Q$ 值。而且某些状态比较相近，但我们的 Q-Learning 方法仍然将它们视为完全不同的状态。举个例子，
 
 ![](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/uploads/2017/02/l10_simular_states.png)
 
-前两个状态，pacman都是被两只鬼堵在角落里，实质上pacman所处的情形差不多。一、三两个状态更是几乎完全相同，只是右上角的一块食物在第三个状态中被吃掉。然而它们都被视为了完全不同的状态，这一点可以被我们用来优化算法。
+前两个状态，pacman 都是被两只鬼堵在角落里，实质上 pacman 所处的情形差不多。一、三两个状态更是几乎完全相同，只是右上角的一块食物在第三个状态中被吃掉。然而它们都被视为了完全不同的状态，这一点可以被我们用来优化算法。
 
-这样看来，优化方法也可以比较容易想到，也即将状态用特征向量表示出来：![f_{i}(s,a),i\in [1,n]](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_19ac33073fe73662a7dfb4b03e600ba2.gif)。这里特征的设计就显得尤为重要，好的特征可以将状态空间较好地映射到特征空间。考虑将这些特征进行线性组合：
+这样看来，优化方法也可以比较容易想到，也即将状态用特征向量表示出来：$f_{i}(s,a),i\in [1,n]$。这里特征的设计就显得尤为重要，好的特征可以将状态空间较好地映射到特征空间。考虑将这些特征进行线性组合：
 
-![Q(s,a)=\sum\limits_{i=1}^{n} w_{i}f_{i}(s,a)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_fb6e6c0be61a5b668aa9e61e8553c8c9.gif)
+$Q(s,a)=\sum\limits_{i=1}^{n} w_{i}f_{i}(s,a)$
 
-经过这样的处理，Q-Learning算法也将变为 **Approximate Q-Learning** ：  
+经过这样的处理，Q-Learning 算法也将变为 **Approximate Q-Learning** ：  
 
-![difference=[r+\gamma\max_{a^{'}}Q(s^{'},a^{'})]-Q(s,a)\\ w_{i}\leftarrow w_{i}+\alpha\cdot difference\cdot f_{i}(s,a)](https://web.archive.org/web/20170912123205im_/http://wangzhao.me/wp-content/plugins/latex/cache/tex_0ef1b27941b5133f0703391bd04c8fc7.gif)
+$difference=[r+\gamma\max_{a^{'}}Q(s^{'},a^{'})]-Q(s,a)\\ w_{i}\leftarrow w_{i}+\alpha\cdot difference\cdot f_{i}(s,a)$
 
 至此，课程的第一部分也就结束了。由于学校这边即将开学，所以博文也要停更一段时间，之后的部分随后有时间再填坑吧。。
