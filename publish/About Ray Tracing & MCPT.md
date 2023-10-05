@@ -31,6 +31,6 @@ $w_{i}=(\alpha,\phi)=(arccos(u_{1}^{\frac{1}{n+1}}),2\pi u_{2})$
 
 MCPT的效果如下：
 
-![]()
+![](https://raw.githubusercontent.com/nero19960329/RayTracer/master/gallery/mcpt_4000_glass_balls.png)
 
 github地址：[https://www.github.com/nero19960329/RayTracer](https://web.archive.org/web/20170912095913/https://www.github.com/nero19960329/RayTracer)
