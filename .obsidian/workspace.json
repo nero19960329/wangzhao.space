@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（2）.md",
+                "file": "publish/Berkeley CS188 学习笔记（3）.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（2）.md",
+                "file": "publish/Berkeley CS188 学习笔记（3）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（2）.md",
+                "file": "publish/Berkeley CS188 学习笔记（3）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Berkeley CS188 学习笔记（2）.md"
+                "file": "publish/Berkeley CS188 学习笔记（3）.md"
               }
             }
           },
@@ -159,9 +159,10 @@
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
+    "publish/Berkeley CS188 学习笔记（2）.md",
+    "publish/Berkeley CS188 学习笔记（3）.md",
     "Pasted image 20231005160219.png",
     "publish/About Ray Tracing & MCPT.md",
-    "publish/Berkeley CS188 学习笔记（2）.md",
     "Pasted image 20231005153547.png",
     "publish/About.md",
     "publish/pyenv instruction.md",

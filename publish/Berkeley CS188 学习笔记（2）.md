@@ -38,4 +38,4 @@ $V(s)=$
 
 之前讨论的情况都是在对方也是一个出色的玩家（总是选择最大化自己的效益）下进行的。另外还有可能对方只是采取随机游走或者采取固定策略，如果是这种情况，使用 Minimax Search 就不是一个好的选择。所以考虑引入 Expectimax Search ，思路很简单，就是将 Minimax Search 算法中状态树中的最小值节点（min node）替换成概率节点（chance node），这种节点的值等于子节点值的期望。伪代码如下：
 
-![](https://web.archive.org/web/20170912095809im_/http://wangzhao.me/wp-content/uploads/2017/02/l6_expectimax_pseudocode.png)
+![](https://i.imgur.com/7bhFU2s.png)
