@@ -1,6 +1,5 @@
 ---
-dateCreated: 2023-08-27T17:42
-dateModified: 2023-09-02T22:51
+dateCreated: 2023-08-14T23:54:00
 ---
 UFW（Uncomplicated Firewall）是一个用户友好的前端界面，用于管理基于netfilter的iptables防火墙。以下是使用UFW的一些常见方式：
 

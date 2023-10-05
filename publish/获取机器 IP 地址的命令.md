@@ -1,6 +1,5 @@
 ---
-dateCreated: 2023-08-27T17:42
-dateModified: 2023-10-02T17:01
+dateCreated: 2023-08-09T13:57:00
 ---
 ```bash
 ip a  | grep 'inet ' | grep eth0 | cut -d/ -f 1 | awk '{print $2}'
