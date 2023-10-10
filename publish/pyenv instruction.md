@@ -153,9 +153,9 @@ env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install x.x.x
 ls ~/.pyenv/version/x.x.x/lib
 ```
 
-## Q: Erorr occurred: `ModuleNotFoundError: No module named '_lzma'`
+### Q: Erorr occurred: `ModuleNotFoundError: No module named '_lzma'`
 
-Run commands below:
+Run commands below (MacOS):
 
 ```sh
 brew install xz

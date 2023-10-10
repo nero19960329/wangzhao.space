@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Backend Developer Roadmap 4.md",
+                "file": "publish/pyenv instruction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Backend Developer Roadmap 4.md",
+                "file": "publish/pyenv instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/Backend Developer Roadmap 4.md",
+                "file": "publish/pyenv instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Backend Developer Roadmap 4.md"
+                "file": "publish/pyenv instruction.md"
               }
             }
           },
@@ -153,13 +153,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "fa30abfb8aac2dfc",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
-    "publish/Backend Developer Roadmap 3.md",
     "publish/Backend Developer Roadmap 4.md",
+    "publish/Backend Developer Roadmap 3.md",
     "publish/Backend Developer Roadmap 2.md",
     "publish/Backend Developer Roadmap 1.md",
     "publish/Rust Introduction.md",
