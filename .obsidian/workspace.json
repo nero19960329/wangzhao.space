@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/https 部署方式.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/https 部署方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/pyenv instruction.md",
+                "file": "publish/https 部署方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/pyenv instruction.md"
+                "file": "publish/https 部署方式.md"
               }
             }
           },
@@ -144,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +159,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "323791d2f3250200",
+  "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
+    "publish/FastAPI 服务提供 OpenAI 流式接口.md",
+    "publish/https 部署方式.md",
+    "publish/pyenv instruction.md",
     "publish/Backend Developer Roadmap 4.md",
     "publish/Backend Developer Roadmap 3.md",
     "publish/Backend Developer Roadmap 2.md",
@@ -182,9 +187,6 @@
     "publish/标日上-2.md",
     "publish/标日上-1.md",
     "README.md",
-    "publish/も.md",
-    "publish/は.md",
-    "publish/の.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
