@@ -54,7 +54,9 @@ Let's Encrypt是一个由非营利组织提供的免费、自动化的证书颁�
    sudo apt-get install certbot
    ```
 
-2. **获取证书：** 一旦安装了 certbot，你可以运行以下命令来获取证书：
+2. 上 cloudflare 或者你托管域的网站上更新 DNS 设置。
+
+3. **获取证书：** 一旦安装了 certbot，你可以运行以下命令来获取证书：
 
    ```shell
    sudo certbot certonly --standalone -d <domain>
