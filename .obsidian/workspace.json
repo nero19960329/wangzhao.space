@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/https SSL 证书配置及 nginx 部署方式.md",
+                "file": "publish/标日上-4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/https SSL 证书配置及 nginx 部署方式.md",
+                "file": "publish/标日上-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/https SSL 证书配置及 nginx 部署方式.md",
+                "file": "publish/标日上-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/https SSL 证书配置及 nginx 部署方式.md"
+                "file": "publish/标日上-4.md"
               }
             }
           },
@@ -148,19 +148,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "copilot:Copilot Chat": false
     }
   },
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
-    "publish/pyenv instruction.md",
+    "publish/标日上-3.md",
+    "publish/标日上-2.md",
+    "publish/标日上-1.md",
+    "publish/标日上-4.md",
     "publish/https SSL 证书配置及 nginx 部署方式.md",
+    "publish/pyenv instruction.md",
     "publish/Backend Developer Roadmap 4.md",
     "publish/Backend Developer Roadmap 3.md",
     "publish/Backend Developer Roadmap 2.md",
@@ -179,10 +183,6 @@
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
     "publish/获取机器 IP 地址的命令.md",
-    "publish/标日上-4.md",
-    "publish/标日上-3.md",
-    "publish/标日上-2.md",
-    "publish/标日上-1.md",
     "README.md",
     "publish/も.md",
     "Pasted image 20231005163148.png",
