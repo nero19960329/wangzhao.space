@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/标日上-5.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/标日上-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/About.md",
+                "file": "publish/标日上-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/About.md"
+                "file": "publish/标日上-5.md"
               }
             }
           },
@@ -144,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,6 +162,8 @@
   "active": "fa30abfb8aac2dfc",
   "lastOpenFiles": [
     "publish/标日上-4.md",
+    "publish/标日上-5.md",
+    "publish/About.md",
     "publish/标日上-3.md",
     "publish/标日上-2.md",
     "publish/标日上-1.md",
@@ -179,12 +183,10 @@
     "publish/Berkeley CS188 学习笔记（2）.md",
     "publish/Berkeley CS188 学习笔记（1）.md",
     "publish/About Ray Tracing & MCPT.md",
-    "publish/About.md",
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
     "publish/获取机器 IP 地址的命令.md",
     "README.md",
-    "publish/も.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
