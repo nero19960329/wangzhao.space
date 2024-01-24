@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ade063308ff8dfa0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "fa30abfb8aac2dfc",
+  "active": "ade063308ff8dfa0",
   "lastOpenFiles": [
     "publish/pyenv instruction.md",
     "publish/https SSL 证书配置及 nginx 部署方式.md",
