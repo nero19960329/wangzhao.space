@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6c9e6a4508b64bc9",
+        "id": "9bdcff9ecb1c4bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "fa30abfb8aac2dfc",
+            "id": "3653b3f3b0577f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/https SSL 证书配置及 nginx 部署方式.md",
+                "file": "publish/标日上-6.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ade063308ff8dfa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日上-3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30b756ffba02ff6a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/标日上-3.md",
+                "file": "publish/标日上-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/标日上-3.md",
+                "file": "publish/标日上-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/标日上-3.md"
+                "file": "publish/标日上-6.md"
               }
             }
           },
@@ -170,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,14 +160,16 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "30b756ffba02ff6a",
+  "active": "3653b3f3b0577f04",
   "lastOpenFiles": [
+    "publish/标日上-5.md",
+    "publish/标日上-6.md",
     "publish/标日上-2.md",
     "publish/标日上-1.md",
-    "publish/标日上-5.md",
+    "publish/https SSL 证书配置及 nginx 部署方式.md",
+    "publish/标日上-3.md",
     "publish/に.md",
     "publish/pyenv instruction.md",
-    "publish/https SSL 证书配置及 nginx 部署方式.md",
     "publish/Backend Developer Roadmap 4.md",
     "publish/Backend Developer Roadmap 3.md",
     "publish/Backend Developer Roadmap 2.md",
@@ -209,8 +188,6 @@
     "publish/算法基础 2.md",
     "publish/算法基础 1.md",
     "publish/获取机器 IP 地址的命令.md",
-    "publish/标日上-4.md",
-    "publish/标日上-3.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
