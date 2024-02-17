@@ -37,6 +37,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "publish/日语助词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "981463a774139709",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "publish/标日上-8.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,11 +209,12 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "1bb5296089bdebf4",
+  "active": "981463a774139709",
   "lastOpenFiles": [
-    "publish/标日上-7.md",
+    "publish/Windows 系统中 Powershell 按键设置.md",
     "publish/标日上-8.md",
     "publish/日语助词.md",
+    "publish/标日上-7.md",
     "publish/标日上-6.md",
     "publish/标日上-5.md",
     "publish/标日上-4.md",
@@ -224,7 +237,6 @@
     "publish/Rust Introduction.md",
     "publish/使用约定式提交进行语义化版本控制.md",
     "publish/Python3 wheel 包生成.md",
-    "publish/Voyager —— 使用基于 LLM 驱动的 Agent 探索 Minecraft.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
