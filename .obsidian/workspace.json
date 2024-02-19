@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -175,9 +175,9 @@
   },
   "active": "1ed07c61edf63132",
   "lastOpenFiles": [
-    "publish/标日上-5.md",
     "publish/日语动词.md",
     "publish/标日上-13.md",
+    "publish/标日上-5.md",
     "publish/标日上-4.md",
     "publish/标日上-6.md",
     "publish/标日上-7.md",
