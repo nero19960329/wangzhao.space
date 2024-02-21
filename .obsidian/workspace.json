@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "3dea66a3f4b969ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/标日上-12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a19f292bfa64afeb",
             "type": "leaf",
             "state": {
@@ -173,10 +185,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0bed040c6fa85aa6",
+  "active": "77e728b067f7e19a",
   "lastOpenFiles": [
-    "publish/日语动词.md",
+    "publish/标日上-12.md",
     "private/日语 N4 新完全掌握 语法.md",
+    "publish/日语动词.md",
     "private/日语N4新完全掌握",
     "private",
     "publish/标日上-17.md",
@@ -199,7 +212,6 @@
     "publish/标日上-8.md",
     "publish/标日上-9.md",
     "publish/标日上-10.md",
-    "publish/标日上-12.md",
     "publish/标日上-11.md",
     "publish/Windows 系统中 Powershell 按键设置.md",
     "publish/标日上-3.md",
