@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "型",
+                "query": "より",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +173,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "77e728b067f7e19a",
+  "active": "0bed040c6fa85aa6",
   "lastOpenFiles": [
     "publish/日语动词.md",
     "private/日语 N4 新完全掌握 语法.md",
