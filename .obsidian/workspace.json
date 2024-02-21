@@ -4,71 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f6c2c9a046548962",
+        "id": "bb9e42b9b57e5f66",
         "type": "tabs",
         "children": [
           {
-            "id": "65ef5448a46c1e5c",
+            "id": "77e728b067f7e19a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/标日上-22.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f53d4a0434505f09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日上-17.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f06f949ce2f35a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日上-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "df2d78594d821a43",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "db24e9580ab47508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/日语助词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1266e6dafe5cf10c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日上-19.md",
+                "file": "private/日语 N4 新完全掌握 语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ほうがいいです",
+                "query": "型",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/标日上-23.md",
+                "file": "private/日语 N4 新完全掌握 语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/标日上-23.md",
+                "file": "private/日语 N4 新完全掌握 语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/标日上-23.md"
+                "file": "private/日语 N4 新完全掌握 语法.md"
               }
             }
           },
@@ -206,31 +151,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9f06f949ce2f35a2",
+  "active": "77e728b067f7e19a",
   "lastOpenFiles": [
-    "publish/日语助词.md",
-    "publish/日语动词.md",
+    "private/日语 N4 新完全掌握 语法.md",
+    "private/日语N4新完全掌握",
+    "private",
+    "publish/标日上-17.md",
     "publish/标日上-23.md",
+    "publish/标日上-22.md",
+    "publish/标日上-21.md",
+    "publish/标日上-20.md",
+    "publish/标日上-19.md",
+    "publish/标日上-18.md",
+    "publish/日语动词.md",
+    "publish/日语助词.md",
     "publish/标日上-16.md",
     "publish/日语形容词.md",
-    "publish/标日上-17.md",
-    "publish/标日上-22.md",
-    "087d6718-74bd-41ef-b262-961a6f651417.jpeg",
-    "publish/标日上-21.md",
-    "publish/标日上-19.md",
-    "publish/标日上-20.md",
     "publish/标日上-15.md",
     "publish/标日上-14.md",
-    "publish/标日上-18.md",
     "publish/标日上-13.md",
     "publish/标日上-5.md",
     "publish/标日上-4.md",
@@ -243,7 +190,6 @@
     "publish/标日上-11.md",
     "publish/Windows 系统中 Powershell 按键设置.md",
     "publish/标日上-3.md",
-    "publish/标日上-2.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
