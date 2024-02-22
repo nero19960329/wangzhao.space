@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ところ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,10 +173,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "77e728b067f7e19a",
+  "active": "0bed040c6fa85aa6",
   "lastOpenFiles": [
-    "publish/日语动词.md",
+    "publish/标日初级-27.md",
     "private/日语 N4 新完全掌握 语法.md",
+    "publish/日语动词.md",
     "publish/标日初级-9.md",
     "publish/标日初级-8.md",
     "publish/标日初级-7.md",
@@ -184,7 +185,6 @@
     "publish/标日初级-5.md",
     "publish/标日初级-4.md",
     "publish/标日初级-3.md",
-    "publish/标日初级-27.md",
     "publish/标日初级-26.md",
     "publish/标日初级-25.md",
     "publish/标日初级-24.md",
