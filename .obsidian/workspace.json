@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "a19f292bfa64afeb",
+            "id": "f8785a36a6b59dc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "より",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,8 +173,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "323791d2f3250200",
+  "active": "77e728b067f7e19a",
   "lastOpenFiles": [
+    "publish/日语动词.md",
+    "private/日语 N4 新完全掌握 语法.md",
     "publish/标日初级-9.md",
     "publish/标日初级-8.md",
     "publish/标日初级-7.md",
@@ -198,8 +201,6 @@
     "publish/标日初级-14.md",
     "publish/标日初级-13.md",
     "publish/标日初级-12.md",
-    "publish/标日初级-11.md",
-    "publish/标日初级-10.md",
     "private/日语N4新完全掌握",
     "private",
     "Pasted image 20231005163148.png",
