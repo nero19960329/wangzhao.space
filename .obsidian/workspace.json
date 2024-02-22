@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/标日初级-23.md",
+                "file": "publish/标日初级-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eaf24d40b9c6a01c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/日语动词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/标日初级-23.md",
+                "file": "publish/标日初级-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/标日初级-23.md",
+                "file": "publish/标日初级-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/标日初级-23.md"
+                "file": "publish/标日初级-27.md"
               }
             }
           },
@@ -179,8 +191,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0bed040c6fa85aa6",
+  "active": "77e728b067f7e19a",
   "lastOpenFiles": [
+    "publish/日语动词.md",
+    "publish/标日初级-27.md",
+    "publish/标日初级-23.md",
     "publish/标日初级-26.md",
     "publish/标日初级-17.md",
     "publish/标日初级-18.md",
@@ -188,12 +203,10 @@
     "publish/标日初级-20.md",
     "publish/标日初级-21.md",
     "publish/标日初级-22.md",
-    "publish/标日初级-23.md",
     "publish/标日初级-24.md",
     "publish/标日初级-25.md",
     "publish/日语助词.md",
     "publish/标日初级-9.md",
-    "publish/日语动词.md",
     "private/日语 N4 新完全掌握 语法.md",
     "publish/标日初级-12.md",
     "private/日语N4新完全掌握",
@@ -208,7 +221,6 @@
     "publish/标日初级-6.md",
     "publish/标日初级-7.md",
     "publish/标日初级-8.md",
-    "publish/标日初级-10.md",
     "Pasted image 20231005163148.png",
     "Pasted image 20231005160219.png",
     "Pasted image 20231005153547.png",
