@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ところ",
+                "query": "ませんか",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "8c32b8ffb820a673",
+  "active": "0bed040c6fa85aa6",
   "lastOpenFiles": [
     "publish/日语动词.md",
     "private/日语 N4 新完全掌握 语法.md",
