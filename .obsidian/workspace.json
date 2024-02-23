@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/日语动词.md",
+                "file": "publish/标日初级-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/日语动词.md",
+                "file": "publish/标日初级-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/日语动词.md"
+                "file": "publish/标日初级-29.md"
               }
             }
           },
@@ -173,10 +172,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "2aa36958a30adcbe",
+  "active": "8c32b8ffb820a673",
   "lastOpenFiles": [
-    "publish/标日初级-29.md",
     "publish/日语动词.md",
+    "publish/标日初级-29.md",
+    "publish/标日初级-20.md",
     "publish/日语助词.md",
     "publish/标日初级-28.md",
     "0029813E.png",
@@ -195,7 +195,6 @@
     "publish/标日初级-23.md",
     "publish/标日初级-22.md",
     "publish/标日初级-21.md",
-    "publish/标日初级-20.md",
     "publish/标日初级-2.md",
     "publish/标日初级-19.md",
     "publish/标日初级-18.md",
