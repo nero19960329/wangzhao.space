@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0ae2a598ad0e239b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/标日初级-31.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "adf5d26ccb79605e",
             "type": "leaf",
             "state": {
@@ -187,8 +199,9 @@
   },
   "active": "8c32b8ffb820a673",
   "lastOpenFiles": [
-    "publish/标日初级-21.md",
+    "publish/标日初级-31.md",
     "private/日语 N4 新完全掌握 语法.md",
+    "publish/标日初级-21.md",
     "publish/标日初级-33.md",
     "publish/标日初级-16.md",
     "publish/日语动词.md",
@@ -196,7 +209,6 @@
     "publish/pyenv instruction.md",
     "publish/标日初级-32.md",
     "publish/标日初级-20.md",
-    "publish/标日初级-31.md",
     "publish/标日初级-11.md",
     "publish/标日初级-30.md",
     "publish/标日初级-29.md",
