@@ -13,62 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/日语动词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81f38a75827c8eee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "publish/标日初级-33.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3dba36802f4e45a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/日语动词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cbe9ffc2885d520",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日初级-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2aa36958a30adcbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/日语动词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +160,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "81f38a75827c8eee",
+  "active": "8c32b8ffb820a673",
   "lastOpenFiles": [
-    "publish/pyenv instruction.md",
+    "publish/日语动词.md",
     "publish/标日初级-33.md",
+    "publish/pyenv instruction.md",
     "publish/标日初级-32.md",
     "publish/标日初级-20.md",
-    "publish/日语动词.md",
     "publish/标日初级-31.md",
     "private/日语 N4 新完全掌握 语法.md",
     "publish/标日初级-11.md",
