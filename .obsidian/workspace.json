@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "publish/标日初级-31.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9b57b6957124dbbd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
               }
             }
           },
@@ -77,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "publish/标日初级-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "publish/标日初级-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md"
+                "file": "publish/标日初级-31.md"
               }
             }
           },
@@ -220,10 +208,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9b57b6957124dbbd",
+  "active": "8c32b8ffb820a673",
   "lastOpenFiles": [
-    "publish/标日初级-11.md",
     "private/日语 N4 新完全掌握 语法.md",
+    "publish/标日初级-31.md",
+    "publish/标日初级-11.md",
     "publish/标日初级-20.md",
     "publish/日语动词.md",
     "publish/标日初级-30.md",
@@ -248,7 +237,6 @@
     "publish/标日初级-2.md",
     "publish/标日初级-19.md",
     "publish/标日初级-18.md",
-    "publish/标日初级-17.md",
     "private/日语N4新完全掌握",
     "private",
     "Pasted image 20231005163148.png",
