@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "3e01a42fd07b08f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日初级-19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5640eae50d9e7699",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/标日初级-31.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3d7ccfbd6ac1d661",
             "type": "leaf",
             "state": {
@@ -84,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "なくてもいいです",
+                "query": "といい",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,10 +173,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "8c32b8ffb820a673",
+  "active": "0bed040c6fa85aa6",
   "lastOpenFiles": [
-    "publish/标日初级-19.md",
+    "publish/标日初级-17.md",
     "private/日语 N4 新完全掌握 语法.md",
+    "publish/标日初级-19.md",
     "publish/标日初级-15.md",
     "publish/标日初级-35.md",
     "publish/标日初级-31.md",
@@ -225,7 +202,6 @@
     "publish/标日初级-8.md",
     "publish/标日初级-7.md",
     "publish/标日初级-6.md",
-    "publish/标日初级-5.md",
     "private/日语N4新完全掌握",
     "private",
     "Pasted image 20231005163148.png",
