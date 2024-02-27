@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ため",
+                "query": "ように",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,7 +185,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a57661aedf5cf7df",
+  "active": "0bed040c6fa85aa6",
   "lastOpenFiles": [
     "publish/标日初级-34.md",
     "private/日语 N4 新完全掌握 语法.md",
