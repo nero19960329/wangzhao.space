@@ -18,6 +18,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8ba5e1c0a723036a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/标日初级-36.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9e1a7310e2296c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/标日初级-34.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       },
@@ -78,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "なくて",
+                "query": "ために",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,19 +217,19 @@
   },
   "active": "8c32b8ffb820a673",
   "lastOpenFiles": [
-    "publish/标日初级-36.md",
+    "publish/标日初级-34.md",
     "publish/标日初级-39.md",
-    "publish/日语动词.md",
-    "publish/标日初级-38.md",
-    "private/日语 N4 新完全掌握 语法.md",
+    "publish/标日初级-36.md",
     "publish/标日初级-37.md",
+    "publish/标日初级-38.md",
+    "publish/日语动词.md",
+    "private/日语 N4 新完全掌握 语法.md",
     "publish/标日初级-17.md",
     "publish/标日初级-19.md",
     "publish/标日初级-15.md",
     "publish/标日初级-35.md",
     "publish/标日初级-31.md",
     "publish/日语形容词.md",
-    "publish/标日初级-34.md",
     "publish/标日初级-33.md",
     "publish/标日初级-21.md",
     "publish/标日初级-16.md",
