@@ -30,8 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b88a8a9707bdc5b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,16 +175,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0bed040c6fa85aa6",
+  "active": "b88a8a9707bdc5b3",
   "lastOpenFiles": [
     "publish/标日初级-37.md",
     "publish/标日初级-36.md",
