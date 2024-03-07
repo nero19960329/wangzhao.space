@@ -1,9 +1,0 @@
-{
-  "dateFormat": "yyyy-MM-dd'T'HH:mm",
-  "enableCreateTime": false,
-  "headerUpdated": "dateModified",
-  "headerCreated": "dateCreated",
-  "minMinutesBetweenSaves": 1,
-  "ignoreGlobalFolder": [],
-  "ignoreCreatedFolder": []
-}
