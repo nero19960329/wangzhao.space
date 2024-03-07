@@ -1,5 +1,5 @@
 ---
-dateCreated: 2023-10-16T15:10:00
+dateCreated: 2023-10-16T15:10
 ---
 ## 原理
 ### HTTPS

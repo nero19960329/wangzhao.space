@@ -1,6 +1,6 @@
 ---
 title: "DNS and how it works? - Backend Developer Roadmap #4"
-dateCreated: 2023-04-18T17:08:00
+dateCreated: 2023-04-18T17:08
 ---
 
 Roadmap: [https://roadmap.sh/backend](https://roadmap.sh/backend)

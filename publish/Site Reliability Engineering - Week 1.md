@@ -1,6 +1,6 @@
 ---
 title: Site Reliability Engineering - Week 1
-dateCreated: 2022-08-27T16:36:00
+dateCreated: 2022-08-27T16:36
 ---
 
 ## Course Link

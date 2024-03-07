@@ -1,6 +1,6 @@
 ---
 title: About me
-dateCreated: 2023-08-08T15:00:00
+dateCreated: 2023-08-08T15:00
 ---
 
 Hi, I'm Zhao Wang, a software development engineer.
@@ -17,4 +17,4 @@ Hi, I'm Zhao Wang, a software development engineer.
 - 2020.07~2023.07
 	- Software Development Engineer, [Megvii Inc.](https://en.megvii.com/), Beijing, China
 - 2023.10 ~ Present
-	- Software Development Engineer, [TuSimple](https://www.tusimple.com/), Tokyo, Japan
+	- Software Development Engineer, [TuSimple JAPAN](https://www.jp.tusimple.com/), Tokyo, Japan

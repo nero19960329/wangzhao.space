@@ -1,6 +1,6 @@
 ---
 title: pyenv instruction
-dateCreated: 2022-05-20T22:51:00
+dateCreated: 2022-05-20T22:51
 ---
 
 ## What is pyenv?

@@ -1,6 +1,6 @@
 ---
 title: "Browsers and how they work? - Backend Developer Roadmap #3"
-dateCreated: 2023-04-11T16:52:00
+dateCreated: 2023-04-11T16:52
 ---
 Roadmap: [https://roadmap.sh/backend](https://roadmap.sh/backend)
 

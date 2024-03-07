@@ -1,6 +1,6 @@
 ---
 title: Rust Introduction
-dateCreated: 2022-11-14T18:36:00
+dateCreated: 2022-11-14T18:36
 ---
 
 ## 官方教程

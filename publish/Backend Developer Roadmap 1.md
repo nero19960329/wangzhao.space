@@ -1,6 +1,6 @@
 ---
 title: "How does the internet work? - Backend Developer Roadmap #1"
-dateCreated: 2023-03-27T18:27:00
+dateCreated: 2023-03-27T18:27
 ---
 
 Roadmap: [https://roadmap.sh/backend](https://roadmap.sh/backend) 
