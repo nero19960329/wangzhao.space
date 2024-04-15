@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/日语 N4 新完全掌握 语法.md"
+                "file": "private/日语/日语 N4 新完全掌握 语法.md"
               }
             }
           },
@@ -163,32 +162,33 @@
   },
   "active": "323791d2f3250200",
   "lastOpenFiles": [
-    "publish/标日初级-13.md",
-    "publish/日语动词.md",
-    "publish/标日初级-40.md",
-    "private/日语 N4 新完全掌握 语法.md",
-    "publish/标日初级-41.md",
-    "publish/标日初级-34.md",
-    "publish/标日初级-38.md",
-    "publish/标日初级-39.md",
-    "publish/标日初级-31.md",
-    "publish/标日初级-36.md",
-    "publish/标日初级-37.md",
-    "publish/标日初级-17.md",
-    "publish/标日初级-19.md",
-    "publish/标日初级-15.md",
-    "publish/标日初级-35.md",
-    "publish/日语形容词.md",
-    "publish/标日初级-33.md",
-    "publish/标日初级-21.md",
-    "publish/标日初级-16.md",
+    "private/日语",
+    "未命名",
+    "private/日语/标日初级-13.md",
+    "private/日语/日语动词.md",
+    "private/日语/标日初级-40.md",
+    "private/日语/日语 N4 新完全掌握 语法.md",
+    "private/日语/标日初级-41.md",
+    "private/日语/标日初级-34.md",
+    "private/日语/标日初级-38.md",
+    "private/日语/标日初级-39.md",
+    "private/日语/标日初级-31.md",
+    "private/日语/标日初级-36.md",
+    "private/日语/标日初级-37.md",
+    "private/日语/标日初级-17.md",
+    "private/日语/标日初级-19.md",
+    "private/日语/标日初级-15.md",
+    "private/日语/标日初级-35.md",
+    "private/日语/日语形容词.md",
+    "private/日语/标日初级-33.md",
+    "private/日语/标日初级-21.md",
+    "private/日语/标日初级-16.md",
     "publish/pyenv instruction.md",
-    "publish/标日初级-32.md",
-    "publish/标日初级-20.md",
-    "publish/标日初级-11.md",
-    "publish/标日初级-30.md",
-    "publish/标日初级-29.md",
-    "publish/标日初级-28.md",
+    "private/日语/标日初级-32.md",
+    "private/日语/标日初级-20.md",
+    "private/日语/标日初级-11.md",
+    "private/日语/标日初级-30.md",
+    "private/日语/标日初级-29.md",
     "0029813E.png",
     "private/日语N4新完全掌握",
     "private",
