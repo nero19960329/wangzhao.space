@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f2b6a8c0cd34c899",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -171,7 +161,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "f2b6a8c0cd34c899",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
     "publish/标日初级-13.md",
     "publish/日语动词.md",
