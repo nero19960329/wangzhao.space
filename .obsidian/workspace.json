@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2b6a8c0cd34c899",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +171,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "cebcd5fd9a6a90e1",
+  "active": "f2b6a8c0cd34c899",
   "lastOpenFiles": [
     "publish/标日初级-13.md",
     "publish/日语动词.md",
