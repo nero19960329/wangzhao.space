@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "private/日语/日语动词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec4b16573c7cf695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "private/日语/标日初级-43.md",
                 "mode": "source",
                 "source": false
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/日语/标日初级-43.md",
+                "file": "private/日语/日语动词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/日语/标日初级-43.md",
+                "file": "private/日语/日语动词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/日语/标日初级-43.md"
+                "file": "private/日语/日语动词.md"
               }
             }
           },
@@ -163,8 +175,8 @@
   },
   "active": "cebcd5fd9a6a90e1",
   "lastOpenFiles": [
-    "private/日语/日语动词.md",
     "private/日语/标日初级-43.md",
+    "private/日语/日语动词.md",
     "private/日语/标日初级-42.md",
     "private/日语/日语 N4 新完全掌握 语法.md",
     "private/日语",
