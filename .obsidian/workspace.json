@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/日语/标日初级-43.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/日语/标日初级-43.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/日语/标日初级-43.md",
+                "file": "private/日语/日语 N4 新完全掌握 语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/日语/标日初级-43.md"
+                "file": "private/日语/日语 N4 新完全掌握 语法.md"
               }
             }
           },
@@ -174,10 +173,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "ec4b16573c7cf695",
+  "active": "323791d2f3250200",
   "lastOpenFiles": [
-    "private/日语/日语动词.md",
     "private/日语/标日初级-43.md",
+    "private/日语/日语动词.md",
     "private/日语/标日初级-42.md",
     "private/日语/日语 N4 新完全掌握 语法.md",
     "private/日语",
