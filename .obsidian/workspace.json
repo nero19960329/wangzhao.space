@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/日语/日语 N3 新完全掌握 语法.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ように",
+                "query": "web.archive",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "6e73e77a3b4eafca",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/日语/日语 N3 新完全掌握 语法.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/日语/日语 N3 新完全掌握 语法.md",
+                "file": "publish/Berkeley CS188 学习笔记（1）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/日语/日语 N3 新完全掌握 语法.md"
+                "file": "publish/Berkeley CS188 学习笔记（1）.md"
               }
             }
           },
@@ -163,8 +163,10 @@
   },
   "active": "ec4b16573c7cf695",
   "lastOpenFiles": [
-    "private/日语/日语 N4 新完全掌握 语法.md",
+    "publish/About Ray Tracing & MCPT.md",
+    "publish/Rust Introduction.md",
     "private/日语/日语 N3 新完全掌握 语法.md",
+    "private/日语/日语 N4 新完全掌握 语法.md",
     "private/日语/日语中级-1.md",
     "private/日语/标日初级-47.md",
     "private/日语/标日初级-46.md",
@@ -191,8 +193,6 @@
     "private/日语/标日初级-19.md",
     "private/日语/标日初级-15.md",
     "private/日语/标日初级-35.md",
-    "private/日语/日语形容词.md",
-    "private/日语/标日初级-33.md",
     "0029813E.png",
     "private/日语N4新完全掌握",
     "private",

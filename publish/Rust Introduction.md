@@ -230,7 +230,7 @@ fn foo(x: i32, y: i32) -> i32 {
 }
 ```
 
-Option<T>: 可能是 **空值** 的返回类型
+`Option<T>`: 可能是 **空值** 的返回类型
 
 ```rust
 fn foo(x: i32, y: i32) -> Option<f64> {
@@ -251,7 +251,7 @@ fn main () {
 }
 ```
 
-Result<T, E>: 有**潜在错误**的返回类型
+`Result<T, E>`: 有**潜在错误**的返回类型
 
 ```rust
 fn foo(x: i32, y: i32) -> Result<f64, &'static str> {
